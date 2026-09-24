@@ -1979,7 +1979,7 @@
       "position": "Laterais",
       "number": "22",
       "goalId": "cmr7wu3ex9lvnrx0693j4grj3",
-      "sofaId": null,
+      "sofaId": 783490,
       "image": "https://media.goal-api.com/badges/players/33573_h-marcelo.jpg",
       "stats": {
         "matches": 23,
@@ -1992,7 +1992,11 @@
       "statsSource": "GOAL API",
       "statsCheckedAt": "2026-09-24T14:20:43.152Z",
       "lastMatch": null,
-      "heatmap": null
+      "heatmap": null,
+      "sofaProfileUrl": "https://www.sofascore.com/pt/football/player/marcelo-hermes/783490",
+      "heightCm": 177,
+      "preferredFoot": "Esquerdo",
+      "sofaProfileVerifiedAt": "2026-09-24"
     },
     {
       "name": "Marcinho",
@@ -2103,39 +2107,51 @@
       "position": "Meias",
       "number": "7",
       "goalId": "cmr7wu3fy9lw3rx067rwqh9c8",
-      "sofaId": null,
+      "sofaId": 865321,
       "image": "https://media.goal-api.com/badges/players/23445_m-fellipe.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
       "lastMatch": null,
-      "heatmap": null
+      "heatmap": null,
+      "sofaProfileUrl": "https://www.sofascore.com/football/player/fellipe-mateus/865321",
+      "heightCm": 178,
+      "preferredFoot": "Esquerdo",
+      "sofaProfileVerifiedAt": "2026-09-24"
     },
     {
       "name": "Jhonata Robert",
       "position": "Meias",
       "number": "10",
       "goalId": "cmr7wu3cn9luhrx06sou7xwlo",
-      "sofaId": null,
+      "sofaId": 998494,
       "image": "https://media.goal-api.com/badges/players/100339_r-jhonata.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
       "lastMatch": null,
-      "heatmap": null
+      "heatmap": null,
+      "sofaProfileUrl": "https://www.sofascore.com/football/player/jhonata-robert/998494",
+      "heightCm": 179,
+      "preferredFoot": "Direito",
+      "sofaProfileVerifiedAt": "2026-09-24"
     },
     {
       "name": "Otero",
       "position": "Atacantes",
       "number": "91",
       "goalId": null,
-      "sofaId": null,
+      "sofaId": 845323,
       "image": null,
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
       "lastMatch": null,
-      "heatmap": null
+      "heatmap": null,
+      "sofaProfileUrl": "https://www.sofascore.com/pt/football/player/romulo-otero/845323",
+      "heightCm": 166,
+      "preferredFoot": "Direito",
+      "sofaProfileVerifiedAt": "2026-09-24"
     },
     {
       "name": "Waguininho",
@@ -2155,13 +2171,17 @@
       "position": "Atacantes",
       "number": "9",
       "goalId": null,
-      "sofaId": null,
+      "sofaId": 866564,
       "image": null,
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
       "lastMatch": null,
-      "heatmap": null
+      "heatmap": null,
+      "sofaProfileUrl": "https://www.sofascore.com/football/player/nicolas/866564",
+      "heightCm": 181,
+      "preferredFoot": "Direito",
+      "sofaProfileVerifiedAt": "2026-09-24"
     },
     {
       "name": "Diego Gonçalves",
