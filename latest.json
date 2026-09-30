@@ -36,7 +36,10 @@
     "heatmapPlayersVerified": 10,
     "heatmapVerifiedAt": "2026-09-30",
     "heatmapPolicy": "Nunca gerar coordenadas artificiais; usar somente fonte verificada.",
-    "syncedFromTigreDataFeedAt": "2026-09-30T13:50:00Z"
+    "syncedFromTigreDataFeedAt": "2026-09-30T13:50:00Z",
+    "goalPlayerPhotos": "PRIMARY",
+    "goalPlayerPhotosUpdatedAt": "2026-09-30",
+    "playerPhotoFallback": "Sofascore"
   },
   "standings": [
     {
@@ -1819,7 +1822,7 @@
       "number": "1",
       "goalId": "cmr7wu3c39lu5rx06muk43wvf",
       "sofaId": 840166,
-      "image": "https://api.sofascore.com/api/v1/player/840166/image",
+      "image": "https://media.goal-api.com/badges/players/67457_alisson.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -1856,7 +1859,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/alisson/840166",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/840166/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Airton",
@@ -1864,7 +1869,7 @@
       "number": "32",
       "goalId": "cmr7wu3bx9lu1rx06lh1ihfp7",
       "sofaId": 797866,
-      "image": "https://api.sofascore.com/api/v1/player/797866/image",
+      "image": "https://media.goal-api.com/badges/players/24701_airton.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -1906,7 +1911,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/airton/797866",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/797866/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Pedro",
@@ -1960,7 +1967,7 @@
       "number": "3",
       "goalId": "cmr7wu3f69lvtrx064s7h5kho",
       "sofaId": 886773,
-      "image": "https://api.sofascore.com/api/v1/player/886773/image",
+      "image": "https://media.goal-api.com/badges/players/5081_rodrigo.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2030,7 +2037,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 640410
+      "fotmobId": 640410,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/886773/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Castán",
@@ -2038,7 +2047,7 @@
       "number": "4",
       "goalId": "cmr7wu3eu9lvlrx062ax00ere",
       "sofaId": 845110,
-      "image": "https://api.sofascore.com/api/v1/player/845110/image",
+      "image": "https://media.goal-api.com/badges/players/1967_c-luciano.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2087,7 +2096,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/luciano-castan/845110",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/845110/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "César Martins",
@@ -2095,7 +2106,7 @@
       "number": null,
       "goalId": "cmr7wu3ea9lv9rx06nyr5aso8",
       "sofaId": 329107,
-      "image": "https://api.sofascore.com/api/v1/player/329107/image",
+      "image": "https://media.goal-api.com/badges/players/23041_m-cesar.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2152,7 +2163,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 450293
+      "fotmobId": 450293,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/329107/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Bruno Alves",
@@ -2160,7 +2173,7 @@
       "number": "34",
       "goalId": "cmr7wu3ds9luxrx06vgk6ka9s",
       "sofaId": 551810,
-      "image": "https://api.sofascore.com/api/v1/player/551810/image",
+      "image": "https://media.goal-api.com/badges/players/19856_a-bruno.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2216,7 +2229,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 263948
+      "fotmobId": 263948,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/551810/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Rômulo Júnior",
@@ -2224,7 +2239,7 @@
       "number": null,
       "goalId": "cmr7fpzk32z1brx06c2utqa4o",
       "sofaId": 1117102,
-      "image": "https://api.sofascore.com/api/v1/player/1117102/image",
+      "image": "https://media.goal-api.com/badges/players/128883_romulus.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2239,7 +2254,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/romulo/1117102",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/1117102/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Octávio",
@@ -2247,7 +2264,7 @@
       "number": "30",
       "goalId": "cmr7wu3f39lvrrx06tijqsr09",
       "sofaId": 2433934,
-      "image": "https://api.sofascore.com/api/v1/player/2433934/image",
+      "image": "https://media.goal-api.com/badges/players/339288_h-octavio.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2262,7 +2279,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/henrique-octavio/2433934",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/2433934/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Ruan",
@@ -2319,7 +2338,7 @@
       "number": "22",
       "goalId": "cmr7wu3ex9lvnrx0693j4grj3",
       "sofaId": 783490,
-      "image": "https://api.sofascore.com/api/v1/player/783490/image",
+      "image": "https://media.goal-api.com/badges/players/33573_h-marcelo.jpg",
       "stats": {
         "matches": 23,
         "minutes": 0,
@@ -2387,7 +2406,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 604563
+      "fotmobId": 604563,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/783490/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Marcinho",
@@ -2395,7 +2416,7 @@
       "number": "6",
       "goalId": "cmr7wu3ez9lvprx06wo1x8rb3",
       "sofaId": 840148,
-      "image": "https://api.sofascore.com/api/v1/player/840148/image",
+      "image": "https://media.goal-api.com/badges/players/66199_marcinho.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2440,7 +2461,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/marcinho/840148",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/840148/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Hiago",
@@ -2448,7 +2471,7 @@
       "number": "31",
       "goalId": "cmr7wu3ek9lvfrx06njkt9nom",
       "sofaId": 1914330,
-      "image": "https://api.sofascore.com/api/v1/player/1914330/image",
+      "image": "https://media.goal-api.com/badges/players/153449_a-hiago.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2488,15 +2511,17 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/hiago-alves/1914330",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/1914330/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Willean Lepo",
       "position": "Volantes",
       "number": null,
-      "goalId": null,
+      "goalId": "cmr7wu3fc9lvxrx06fu0jqm2h",
       "sofaId": 868076,
-      "image": "https://api.sofascore.com/api/v1/player/868076/image",
+      "image": "https://media.goal-api.com/badges/players/70313_l-willean.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2567,7 +2592,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 942855
+      "fotmobId": 942855,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/868076/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Gui Lobo",
@@ -2575,7 +2602,7 @@
       "number": "25",
       "goalId": "cmr7wu3fi9lw1rx064lekw4q7",
       "sofaId": 1148301,
-      "image": "https://api.sofascore.com/api/v1/player/1148301/image",
+      "image": "https://media.goal-api.com/badges/players/125007_l-gui.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2623,7 +2650,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/guilherme-lobo/1148301",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/1148301/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Jean Irmer",
@@ -2631,7 +2660,7 @@
       "number": "41",
       "goalId": "cmr7wu3c99lu7rx0609ujqj5b",
       "sofaId": 848630,
-      "image": "https://api.sofascore.com/api/v1/player/848630/image",
+      "image": "https://media.goal-api.com/badges/players/49949_i-jean.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2685,7 +2714,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/jean-irmer/848630",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/848630/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Ronald",
@@ -2693,7 +2724,7 @@
       "number": "14",
       "goalId": "cmr7wu89m9o1frx06ch6cfpkp",
       "sofaId": 931521,
-      "image": "https://api.sofascore.com/api/v1/player/931521/image",
+      "image": "https://media.goal-api.com/badges/players/77923_l-ronald.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2733,7 +2764,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/ronald/931521",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/931521/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Thiaguinho",
@@ -2793,7 +2826,7 @@
       "number": "5",
       "goalId": "cmr7wu3fg9lvzrx06838jkwaj",
       "sofaId": 870800,
-      "image": "https://api.sofascore.com/api/v1/player/870800/image",
+      "image": "https://media.goal-api.com/badges/players/57239_eduardo.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2853,7 +2886,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/eduardo-biasi/870800",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/870800/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Fellipe Mateus",
@@ -2861,7 +2896,7 @@
       "number": "7",
       "goalId": "cmr7wu3fy9lw3rx067rwqh9c8",
       "sofaId": 865321,
-      "image": "https://api.sofascore.com/api/v1/player/865321/image",
+      "image": "https://media.goal-api.com/badges/players/23445_m-fellipe.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -2921,7 +2956,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 851632
+      "fotmobId": 851632,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/865321/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Jhonata Robert",
@@ -2929,7 +2966,7 @@
       "number": "10",
       "goalId": "cmr7wu3cn9luhrx06sou7xwlo",
       "sofaId": 998494,
-      "image": "https://api.sofascore.com/api/v1/player/998494/image",
+      "image": "https://media.goal-api.com/badges/players/100339_r-jhonata.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3002,15 +3039,17 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 1098099
+      "fotmobId": 1098099,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/998494/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Otero",
       "position": "Atacantes",
       "number": "91",
-      "goalId": null,
+      "goalId": "cmr7wu3dt9luzrx069tpmwwm8",
       "sofaId": 845323,
-      "image": "https://api.sofascore.com/api/v1/player/845323/image",
+      "image": "https://media.goal-api.com/badges/players/7685_r-otero.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3072,7 +3111,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 240371
+      "fotmobId": 240371,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/845323/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Waguininho",
@@ -3080,7 +3121,7 @@
       "number": "13",
       "goalId": "cmr7wu3e49lv5rx06eueljpsr",
       "sofaId": 924251,
-      "image": "https://api.sofascore.com/api/v1/player/924251/image",
+      "image": "https://media.goal-api.com/badges/players/32838_waguininho.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3150,15 +3191,17 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 641000
+      "fotmobId": 641000,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/924251/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Nicolas",
       "position": "Atacantes",
       "number": "9",
-      "goalId": null,
+      "goalId": "cmr7wu3de9luprx060w29zvlv",
       "sofaId": 866564,
-      "image": "https://api.sofascore.com/api/v1/player/866564/image",
+      "image": "https://media.goal-api.com/badges/players/1526_nicolas.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3232,7 +3275,9 @@
         "verifiedAt": "2026-09-30",
         "note": "Heatmap real disponível na página pública do FotMob. Usar este fallback visual quando o endpoint estruturado do Sofascore retornar 403."
       },
-      "fotmobId": 268068
+      "fotmobId": 268068,
+      "imageFallback": "https://api.sofascore.com/api/v1/player/866564/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Diego Gonçalves",
@@ -3240,7 +3285,7 @@
       "number": "77",
       "goalId": "cmr7wu3ca9lu9rx06jgorjy5s",
       "sofaId": 344077,
-      "image": "https://api.sofascore.com/api/v1/player/344077/image",
+      "image": "https://media.goal-api.com/badges/players/38909_g-diego.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3287,7 +3332,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/diego-goncalves/344077",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/344077/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Yuri Tanque",
@@ -3295,7 +3342,7 @@
       "number": null,
       "goalId": "cmtfafls41fugo8073h07w8v3",
       "sofaId": 877626,
-      "image": "https://api.sofascore.com/api/v1/player/877626/image",
+      "image": "https://media.goal-api.com/badges/players/79926_t-yuri.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3335,7 +3382,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/yuri/877626",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/877626/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Romarinho",
@@ -3343,7 +3392,7 @@
       "number": "11",
       "goalId": "cmr7wu3dh9lurrx06q5lo3gam",
       "sofaId": 870578,
-      "image": "https://api.sofascore.com/api/v1/player/870578/image",
+      "image": "https://media.goal-api.com/badges/players/33972_romarinho.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3389,7 +3438,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/romarinho/870578",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/870578/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Cauê",
@@ -3444,7 +3495,7 @@
       "number": "21",
       "goalId": "cmr7wu3cl9lufrx06nwjm261t",
       "sofaId": 1462654,
-      "image": "https://api.sofascore.com/api/v1/player/1462654/image",
+      "image": "https://media.goal-api.com/badges/players/122021_c-joao.jpg",
       "stats": {
         "matches": 7,
         "minutes": 0,
@@ -3490,15 +3541,17 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/joao-carlos/1462654",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/1462654/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Kauã Moroso",
       "position": "Goleiros",
       "number": null,
-      "goalId": null,
+      "goalId": "cmtyvhim722txpf071v8uzrbn",
       "sofaId": 2472108,
-      "image": "https://api.sofascore.com/api/v1/player/2472108/image",
+      "image": "https://media.goal-api.com/badges/players/172693_m-kaua.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3513,15 +3566,17 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/kaua-moroso/2472108",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/2472108/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Erick Garcia",
       "position": "Zagueiros",
       "number": null,
-      "goalId": null,
+      "goalId": "cmr7wu3eg9lvdrx0620uyvcjm",
       "sofaId": 1808902,
-      "image": "https://api.sofascore.com/api/v1/player/1808902/image",
+      "image": "https://media.goal-api.com/badges/players/271729_g-erick.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3536,7 +3591,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/erick-garcia/1808902",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/1808902/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Kayck",
@@ -3565,9 +3622,9 @@
       "name": "Sandry",
       "position": "Meias",
       "number": null,
-      "goalId": null,
+      "goalId": "cmr7wu3dx9lv1rx0613joeh3l",
       "sofaId": 973847,
-      "image": "https://api.sofascore.com/api/v1/player/973847/image",
+      "image": "https://media.goal-api.com/badges/players/93028_sandry.jpg",
       "stats": null,
       "statsSource": null,
       "statsCheckedAt": null,
@@ -3582,7 +3639,9 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/pt/football/player/sandry/973847",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "imageFallback": "https://api.sofascore.com/api/v1/player/973847/image",
+      "imageSource": "GOAL API"
     },
     {
       "name": "Eliel",
