@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-09-30T13:50:00Z",
+  "checkedAt": "2026-10-01T01:16:00Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
@@ -43,7 +43,13 @@
     "officialClubPhotos": "PRIMARY",
     "officialClubPhotosUpdatedAt": "2026-09-30",
     "officialClubPhotosCount": 28,
-    "playerPhotoPolicy": "Retrato oficial do Criciúma; GOAL API e Sofascore somente como fallback"
+    "playerPhotoPolicy": "Retrato oficial do Criciúma; GOAL API e Sofascore somente como fallback",
+    "standingsVerifiedAt": "2026-10-01T01:16:00Z",
+    "standingsVerifiedSource": "CBF - fechamento da 30ª rodada",
+    "round30Applied": true,
+    "matchDeduplication": "date+home+away+score",
+    "futureMatchesExcludedFromForm": true,
+    "teamBadgesEmbeddedInMatches": true
   },
   "standings": [
     {
@@ -57,22 +63,22 @@
       "season": null,
       "overallPromotion": "Promotion - Serie A Betano",
       "overallLeaguePosition": "1",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "15",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "16",
       "overallLeagueD": "6",
       "overallLeagueL": "8",
-      "overallLeagueGF": "41",
+      "overallLeagueGF": "43",
       "overallLeagueGA": "31",
-      "overallLeaguePTS": "51",
+      "overallLeaguePTS": "54",
       "homeLeaguePosition": "1",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
-      "homeLeagueW": "11",
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "12",
       "homeLeagueD": "2",
       "homeLeagueL": "1",
-      "homeLeagueGF": "29",
+      "homeLeagueGF": "31",
       "homeLeagueGA": "11",
-      "homeLeaguePTS": "35",
+      "homeLeaguePTS": "38",
       "awayLeaguePosition": "13",
       "awayPromotion": null,
       "awayLeaguePlayed": "15",
@@ -83,11 +89,61 @@
       "awayLeagueGA": "20",
       "awayLeaguePTS": "16",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-19T02:02:52.739Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu0649kvlrx06fkp8yv5z",
         "name": "Vila Nova",
         "badge": "https://media.goal-api.com/badges/1783_vila-nova.jpg",
+        "country": "Brazil"
+      },
+      "league": {
+        "id": "cmr77dvww00bgrx06cb9fmnv0",
+        "name": "Serie B",
+        "season": "2026"
+      }
+    },
+    {
+      "id": "cmrjbq5is092cmw07ies3hpai",
+      "leagueId": "cmr77dvww00bgrx06cb9fmnv0",
+      "teamId": "cmr7wu05i9kv6rx06r5doed0a",
+      "teamName": "Juventude",
+      "leagueRound": null,
+      "fkStageKey": "658",
+      "stageName": "Current",
+      "season": null,
+      "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
+      "overallLeaguePosition": "2",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "15",
+      "overallLeagueD": "8",
+      "overallLeagueL": "7",
+      "overallLeagueGF": "32",
+      "overallLeagueGA": "19",
+      "overallLeaguePTS": "53",
+      "homeLeaguePosition": "2",
+      "homePromotion": null,
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "9",
+      "homeLeagueD": "4",
+      "homeLeagueL": "2",
+      "homeLeagueGF": "19",
+      "homeLeagueGA": "6",
+      "homeLeaguePTS": "31",
+      "awayLeaguePosition": "5",
+      "awayPromotion": null,
+      "awayLeaguePlayed": "15",
+      "awayLeagueW": "6",
+      "awayLeagueD": "4",
+      "awayLeagueL": "5",
+      "awayLeagueGF": "13",
+      "awayLeagueGA": "13",
+      "awayLeaguePTS": "22",
+      "createdAt": "2026-07-13T14:34:46.516Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
+      "team": {
+        "id": "cmr7wu05i9kv6rx06r5doed0a",
+        "name": "Juventude",
+        "badge": "https://media.goal-api.com/badges/1737_juventude.jpg",
         "country": "Brazil"
       },
       "league": {
@@ -106,23 +162,23 @@
       "stageName": "Current",
       "season": null,
       "overallPromotion": "Promotion - Serie A Betano",
-      "overallLeaguePosition": "2",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePosition": "3",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "14",
-      "overallLeagueD": "9",
+      "overallLeagueD": "10",
       "overallLeagueL": "6",
-      "overallLeagueGF": "33",
-      "overallLeagueGA": "24",
-      "overallLeaguePTS": "51",
+      "overallLeagueGF": "35",
+      "overallLeagueGA": "26",
+      "overallLeaguePTS": "52",
       "homeLeaguePosition": "3",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
+      "homeLeaguePlayed": "15",
       "homeLeagueW": "9",
-      "homeLeagueD": "4",
+      "homeLeagueD": "5",
       "homeLeagueL": "1",
-      "homeLeagueGF": "22",
-      "homeLeagueGA": "11",
-      "homeLeaguePTS": "31",
+      "homeLeagueGF": "24",
+      "homeLeagueGA": "13",
+      "homeLeaguePTS": "32",
       "awayLeaguePosition": "4",
       "awayPromotion": null,
       "awayLeaguePlayed": "15",
@@ -133,7 +189,7 @@
       "awayLeagueGA": "13",
       "awayLeaguePTS": "20",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-21T00:03:13.271Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05x9kvfrx06oqpcciea",
         "name": "Fortaleza",
@@ -156,23 +212,23 @@
       "stageName": "Current",
       "season": null,
       "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
-      "overallLeaguePosition": "3",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePosition": "4",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "14",
-      "overallLeagueD": "8",
+      "overallLeagueD": "9",
       "overallLeagueL": "7",
       "overallLeagueGF": "49",
       "overallLeagueGA": "27",
-      "overallLeaguePTS": "50",
+      "overallLeaguePTS": "51",
       "homeLeaguePosition": "7",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
+      "homeLeaguePlayed": "15",
       "homeLeagueW": "8",
-      "homeLeagueD": "3",
+      "homeLeagueD": "4",
       "homeLeagueL": "3",
       "homeLeagueGF": "23",
       "homeLeagueGA": "14",
-      "homeLeaguePTS": "27",
+      "homeLeaguePTS": "28",
       "awayLeaguePosition": "2",
       "awayPromotion": null,
       "awayLeaguePlayed": "15",
@@ -183,111 +239,11 @@
       "awayLeagueGA": "13",
       "awayLeaguePTS": "23",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-21T00:03:13.271Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05o9kv8rx06adgq24rg",
         "name": "Novorizontino",
         "badge": "https://media.goal-api.com/badges/1805_novorizontino.jpg",
-        "country": "Brazil"
-      },
-      "league": {
-        "id": "cmr77dvww00bgrx06cb9fmnv0",
-        "name": "Serie B",
-        "season": "2026"
-      }
-    },
-    {
-      "id": "cmrjbq5is092cmw07ies3hpai",
-      "leagueId": "cmr77dvww00bgrx06cb9fmnv0",
-      "teamId": "cmr7wu05i9kv6rx06r5doed0a",
-      "teamName": "Juventude",
-      "leagueRound": null,
-      "fkStageKey": "658",
-      "stageName": "Current",
-      "season": null,
-      "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
-      "overallLeaguePosition": "4",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "14",
-      "overallLeagueD": "8",
-      "overallLeagueL": "7",
-      "overallLeagueGF": "31",
-      "overallLeagueGA": "19",
-      "overallLeaguePTS": "50",
-      "homeLeaguePosition": "2",
-      "homePromotion": null,
-      "homeLeaguePlayed": "15",
-      "homeLeagueW": "9",
-      "homeLeagueD": "4",
-      "homeLeagueL": "2",
-      "homeLeagueGF": "19",
-      "homeLeagueGA": "6",
-      "homeLeaguePTS": "31",
-      "awayLeaguePosition": "5",
-      "awayPromotion": null,
-      "awayLeaguePlayed": "14",
-      "awayLeagueW": "5",
-      "awayLeagueD": "4",
-      "awayLeagueL": "5",
-      "awayLeagueGF": "12",
-      "awayLeagueGA": "13",
-      "awayLeaguePTS": "19",
-      "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-21T00:03:13.271Z",
-      "team": {
-        "id": "cmr7wu05i9kv6rx06r5doed0a",
-        "name": "Juventude",
-        "badge": "https://media.goal-api.com/badges/1737_juventude.jpg",
-        "country": "Brazil"
-      },
-      "league": {
-        "id": "cmr77dvww00bgrx06cb9fmnv0",
-        "name": "Serie B",
-        "season": "2026"
-      }
-    },
-    {
-      "id": "cmrjbq5is092amw07gqz2oj9a",
-      "leagueId": "cmr77dvww00bgrx06cb9fmnv0",
-      "teamId": "cmr7wu05w9kverx06sb8ozy6w",
-      "teamName": "Operario-PR",
-      "leagueRound": null,
-      "fkStageKey": "658",
-      "stageName": "Current",
-      "season": null,
-      "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
-      "overallLeaguePosition": "5",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "13",
-      "overallLeagueD": "8",
-      "overallLeagueL": "8",
-      "overallLeagueGF": "41",
-      "overallLeagueGA": "36",
-      "overallLeaguePTS": "47",
-      "homeLeaguePosition": "9",
-      "homePromotion": null,
-      "homeLeaguePlayed": "14",
-      "homeLeagueW": "7",
-      "homeLeagueD": "4",
-      "homeLeagueL": "3",
-      "homeLeagueGF": "20",
-      "homeLeagueGA": "16",
-      "homeLeaguePTS": "25",
-      "awayLeaguePosition": "3",
-      "awayPromotion": null,
-      "awayLeaguePlayed": "15",
-      "awayLeagueW": "6",
-      "awayLeagueD": "4",
-      "awayLeagueL": "5",
-      "awayLeagueGF": "21",
-      "awayLeagueGA": "20",
-      "awayLeaguePTS": "22",
-      "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-23T02:03:28.908Z",
-      "team": {
-        "id": "cmr7wu05w9kverx06sb8ozy6w",
-        "name": "Operário PR",
-        "badge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
         "country": "Brazil"
       },
       "league": {
@@ -306,23 +262,23 @@
       "stageName": "Current",
       "season": null,
       "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
-      "overallLeaguePosition": "6",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "13",
+      "overallLeaguePosition": "5",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "14",
       "overallLeagueD": "8",
       "overallLeagueL": "8",
-      "overallLeagueGF": "28",
+      "overallLeagueGF": "31",
       "overallLeagueGA": "27",
-      "overallLeaguePTS": "47",
+      "overallLeaguePTS": "50",
       "homeLeaguePosition": "6",
       "homePromotion": null,
-      "homeLeaguePlayed": "15",
-      "homeLeagueW": "8",
+      "homeLeaguePlayed": "16",
+      "homeLeagueW": "9",
       "homeLeagueD": "4",
       "homeLeagueL": "3",
-      "homeLeagueGF": "15",
+      "homeLeagueGF": "18",
       "homeLeagueGA": "10",
-      "homeLeaguePTS": "28",
+      "homeLeaguePTS": "31",
       "awayLeaguePosition": "7",
       "awayPromotion": null,
       "awayLeaguePlayed": "14",
@@ -333,7 +289,7 @@
       "awayLeagueGA": "17",
       "awayLeaguePTS": "19",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-23T02:03:28.908Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu0669kvmrx06zpdn1bqf",
         "name": "Criciúma",
@@ -356,14 +312,14 @@
       "stageName": "Current",
       "season": null,
       "overallPromotion": null,
-      "overallLeaguePosition": "7",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "12",
+      "overallLeaguePosition": "6",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "13",
       "overallLeagueD": "10",
       "overallLeagueL": "7",
-      "overallLeagueGF": "36",
+      "overallLeagueGF": "37",
       "overallLeagueGA": "27",
-      "overallLeaguePTS": "46",
+      "overallLeaguePTS": "49",
       "homeLeaguePosition": "4",
       "homePromotion": null,
       "homeLeaguePlayed": "15",
@@ -375,15 +331,15 @@
       "homeLeaguePTS": "28",
       "awayLeaguePosition": "10",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
-      "awayLeagueW": "4",
+      "awayLeaguePlayed": "15",
+      "awayLeagueW": "5",
       "awayLeagueD": "6",
       "awayLeagueL": "4",
-      "awayLeagueGF": "12",
+      "awayLeagueGF": "13",
       "awayLeagueGA": "14",
-      "awayLeaguePTS": "18",
+      "awayLeaguePTS": "21",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-23T02:03:28.908Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05z9kvhrx06ikryezl3",
         "name": "Atlético Goianiense",
@@ -406,23 +362,23 @@
       "stageName": "Current",
       "season": null,
       "overallPromotion": null,
-      "overallLeaguePosition": "8",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "13",
+      "overallLeaguePosition": "7",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "14",
       "overallLeagueD": "6",
       "overallLeagueL": "10",
-      "overallLeagueGF": "42",
+      "overallLeagueGF": "45",
       "overallLeagueGA": "41",
-      "overallLeaguePTS": "45",
+      "overallLeaguePTS": "48",
       "homeLeaguePosition": "11",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
-      "homeLeagueW": "7",
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "8",
       "homeLeagueD": "3",
       "homeLeagueL": "4",
-      "homeLeagueGF": "25",
+      "homeLeagueGF": "28",
       "homeLeagueGA": "17",
-      "homeLeaguePTS": "24",
+      "homeLeaguePTS": "27",
       "awayLeaguePosition": "4",
       "awayPromotion": null,
       "awayLeaguePlayed": "15",
@@ -433,11 +389,61 @@
       "awayLeagueGA": "24",
       "awayLeaguePTS": "21",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-23T02:03:28.908Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu0609kvirx06kek1bg62",
         "name": "CRB",
         "badge": "https://media.goal-api.com/badges/1744_crb.jpg",
+        "country": "Brazil"
+      },
+      "league": {
+        "id": "cmr77dvww00bgrx06cb9fmnv0",
+        "name": "Serie B",
+        "season": "2026"
+      }
+    },
+    {
+      "id": "cmrjbq5is092amw07gqz2oj9a",
+      "leagueId": "cmr77dvww00bgrx06cb9fmnv0",
+      "teamId": "cmr7wu05w9kverx06sb8ozy6w",
+      "teamName": "Operario-PR",
+      "leagueRound": null,
+      "fkStageKey": "658",
+      "stageName": "Current",
+      "season": null,
+      "overallPromotion": "Promotion - Serie B (Promotion - Play Offs: Final)",
+      "overallLeaguePosition": "8",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "13",
+      "overallLeagueD": "9",
+      "overallLeagueL": "8",
+      "overallLeagueGF": "43",
+      "overallLeagueGA": "38",
+      "overallLeaguePTS": "48",
+      "homeLeaguePosition": "9",
+      "homePromotion": null,
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "7",
+      "homeLeagueD": "5",
+      "homeLeagueL": "3",
+      "homeLeagueGF": "22",
+      "homeLeagueGA": "18",
+      "homeLeaguePTS": "26",
+      "awayLeaguePosition": "3",
+      "awayPromotion": null,
+      "awayLeaguePlayed": "15",
+      "awayLeagueW": "6",
+      "awayLeagueD": "4",
+      "awayLeagueL": "5",
+      "awayLeagueGF": "21",
+      "awayLeagueGA": "20",
+      "awayLeaguePTS": "22",
+      "createdAt": "2026-07-13T14:34:46.516Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
+      "team": {
+        "id": "cmr7wu05w9kverx06sb8ozy6w",
+        "name": "Operário PR",
+        "badge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
         "country": "Brazil"
       },
       "league": {
@@ -457,12 +463,12 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "9",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "11",
       "overallLeagueD": "11",
-      "overallLeagueL": "7",
-      "overallLeagueGF": "39",
-      "overallLeagueGA": "29",
+      "overallLeagueL": "8",
+      "overallLeagueGF": "40",
+      "overallLeagueGA": "32",
       "overallLeaguePTS": "44",
       "homeLeaguePosition": "5",
       "homePromotion": null,
@@ -475,15 +481,15 @@
       "homeLeaguePTS": "28",
       "awayLeaguePosition": "12",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "4",
       "awayLeagueD": "4",
-      "awayLeagueL": "6",
-      "awayLeagueGF": "13",
-      "awayLeagueGA": "14",
+      "awayLeagueL": "7",
+      "awayLeagueGF": "14",
+      "awayLeagueGA": "17",
       "awayLeaguePTS": "16",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-20T00:03:30.256Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05u9kvcrx066idvr5pd",
         "name": "Sport Recife",
@@ -507,12 +513,12 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "10",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "10",
       "overallLeagueD": "13",
-      "overallLeagueL": "6",
+      "overallLeagueL": "7",
       "overallLeagueGF": "30",
-      "overallLeagueGA": "22",
+      "overallLeagueGA": "25",
       "overallLeaguePTS": "43",
       "homeLeaguePosition": "8",
       "homePromotion": null,
@@ -525,15 +531,15 @@
       "homeLeaguePTS": "25",
       "awayLeaguePosition": "8",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "4",
       "awayLeagueD": "6",
-      "awayLeagueL": "4",
+      "awayLeagueL": "5",
       "awayLeagueGF": "13",
-      "awayLeagueGA": "13",
+      "awayLeagueGA": "16",
       "awayLeaguePTS": "18",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-22T03:05:57.968Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05k9kv7rx065nhnpf6v",
         "name": "Cuiabá",
@@ -557,21 +563,21 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "11",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "12",
       "overallLeagueD": "6",
-      "overallLeagueL": "11",
+      "overallLeagueL": "12",
       "overallLeagueGF": "30",
-      "overallLeagueGA": "35",
+      "overallLeagueGA": "36",
       "overallLeaguePTS": "42",
       "homeLeaguePosition": "10",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
+      "homeLeaguePlayed": "15",
       "homeLeagueW": "8",
       "homeLeagueD": "1",
-      "homeLeagueL": "5",
+      "homeLeagueL": "6",
       "homeLeagueGF": "14",
-      "homeLeagueGA": "15",
+      "homeLeagueGA": "16",
       "homeLeaguePTS": "25",
       "awayLeaguePosition": "11",
       "awayPromotion": null,
@@ -583,7 +589,7 @@
       "awayLeagueGA": "20",
       "awayLeaguePTS": "17",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-22T03:05:57.968Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu0619kvjrx067mtep8bz",
         "name": "Goiás",
@@ -607,13 +613,13 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "12",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "11",
-      "overallLeagueD": "8",
+      "overallLeagueD": "9",
       "overallLeagueL": "10",
       "overallLeagueGF": "40",
       "overallLeagueGA": "31",
-      "overallLeaguePTS": "41",
+      "overallLeaguePTS": "42",
       "homeLeaguePosition": "18",
       "homePromotion": null,
       "homeLeaguePlayed": "15",
@@ -625,15 +631,15 @@
       "homeLeaguePTS": "15",
       "awayLeaguePosition": "1",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "8",
-      "awayLeagueD": "2",
+      "awayLeagueD": "3",
       "awayLeagueL": "4",
       "awayLeagueGF": "24",
       "awayLeagueGA": "14",
-      "awayLeaguePTS": "26",
+      "awayLeaguePTS": "27",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-22T03:05:57.968Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05v9kvdrx06qn8kof5c",
         "name": "São Bernardo FC",
@@ -657,13 +663,13 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "13",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "10",
-      "overallLeagueD": "11",
+      "overallLeagueD": "12",
       "overallLeagueL": "8",
-      "overallLeagueGF": "34",
-      "overallLeagueGA": "31",
-      "overallLeaguePTS": "41",
+      "overallLeagueGF": "36",
+      "overallLeagueGA": "33",
+      "overallLeaguePTS": "42",
       "homeLeaguePosition": "14",
       "homePromotion": null,
       "homeLeaguePlayed": "15",
@@ -675,15 +681,15 @@
       "homeLeaguePTS": "23",
       "awayLeaguePosition": "9",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "4",
-      "awayLeagueD": "6",
+      "awayLeagueD": "7",
       "awayLeagueL": "4",
-      "awayLeagueGF": "16",
-      "awayLeagueGA": "17",
-      "awayLeaguePTS": "18",
+      "awayLeagueGF": "18",
+      "awayLeagueGA": "19",
+      "awayLeaguePTS": "19",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-22T03:05:57.968Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05r9kvarx065yddbjdc",
         "name": "Athletic Club MG",
@@ -707,33 +713,33 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "14",
-      "overallLeaguePlayed": "28",
-      "overallLeagueW": "10",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "11",
       "overallLeagueD": "8",
-      "overallLeagueL": "10",
-      "overallLeagueGF": "35",
-      "overallLeagueGA": "33",
-      "overallLeaguePTS": "38",
+      "overallLeagueL": "11",
+      "overallLeagueGF": "38",
+      "overallLeagueGA": "37",
+      "overallLeaguePTS": "41",
       "homeLeaguePosition": "10",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
-      "homeLeagueW": "7",
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "8",
       "homeLeagueD": "3",
       "homeLeagueL": "4",
-      "homeLeagueGF": "16",
-      "homeLeagueGA": "12",
-      "homeLeaguePTS": "24",
+      "homeLeagueGF": "19",
+      "homeLeagueGA": "13",
+      "homeLeaguePTS": "27",
       "awayLeaguePosition": "14",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "3",
       "awayLeagueD": "5",
-      "awayLeagueL": "6",
+      "awayLeagueL": "7",
       "awayLeagueGF": "19",
-      "awayLeagueGA": "21",
+      "awayLeagueGA": "24",
       "awayLeaguePTS": "14",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-16T03:02:23.817Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu0639kvkrx06ls825ddy",
         "name": "Náutico FC",
@@ -757,13 +763,13 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "15",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "9",
-      "overallLeagueD": "8",
+      "overallLeagueD": "9",
       "overallLeagueL": "12",
-      "overallLeagueGF": "31",
-      "overallLeagueGA": "37",
-      "overallLeaguePTS": "35",
+      "overallLeagueGF": "33",
+      "overallLeagueGA": "39",
+      "overallLeaguePTS": "36",
       "homeLeaguePosition": "11",
       "homePromotion": null,
       "homeLeaguePlayed": "15",
@@ -775,15 +781,15 @@
       "homeLeaguePTS": "24",
       "awayLeaguePosition": "17",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "2",
-      "awayLeagueD": "5",
+      "awayLeagueD": "6",
       "awayLeagueL": "7",
-      "awayLeagueGF": "12",
-      "awayLeagueGA": "20",
-      "awayLeaguePTS": "11",
+      "awayLeagueGF": "14",
+      "awayLeagueGA": "22",
+      "awayLeaguePTS": "12",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-19T03:02:29.126Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05s9kvbrx06tgtblb2u",
         "name": "Ceará",
@@ -807,22 +813,22 @@
       "season": null,
       "overallPromotion": null,
       "overallLeaguePosition": "16",
-      "overallLeaguePlayed": "29",
-      "overallLeagueW": "8",
+      "overallLeaguePlayed": "30",
+      "overallLeagueW": "9",
       "overallLeagueD": "8",
       "overallLeagueL": "13",
-      "overallLeagueGF": "32",
+      "overallLeagueGF": "34",
       "overallLeagueGA": "36",
-      "overallLeaguePTS": "32",
+      "overallLeaguePTS": "35",
       "homeLeaguePosition": "16",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
-      "homeLeagueW": "5",
+      "homeLeaguePlayed": "15",
+      "homeLeagueW": "6",
       "homeLeagueD": "3",
       "homeLeagueL": "6",
-      "homeLeagueGF": "23",
+      "homeLeagueGF": "25",
       "homeLeagueGA": "21",
-      "homeLeaguePTS": "18",
+      "homeLeaguePTS": "21",
       "awayLeaguePosition": "15",
       "awayPromotion": null,
       "awayLeaguePlayed": "15",
@@ -833,7 +839,7 @@
       "awayLeagueGA": "15",
       "awayLeaguePTS": "14",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-20T06:02:30.782Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu06d9kvprx062mx0mvyk",
         "name": "Botafogo SP",
@@ -857,12 +863,12 @@
       "season": null,
       "overallPromotion": "Relegation - Serie C (First stage)",
       "overallLeaguePosition": "17",
-      "overallLeaguePlayed": "28",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "8",
       "overallLeagueD": "6",
-      "overallLeagueL": "14",
-      "overallLeagueGF": "29",
-      "overallLeagueGA": "36",
+      "overallLeagueL": "16",
+      "overallLeagueGF": "30",
+      "overallLeagueGA": "41",
       "overallLeaguePTS": "30",
       "homeLeaguePosition": "15",
       "homePromotion": null,
@@ -875,15 +881,15 @@
       "homeLeaguePTS": "19",
       "awayLeaguePosition": "18",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "16",
       "awayLeagueW": "3",
       "awayLeagueD": "2",
-      "awayLeagueL": "9",
-      "awayLeagueGF": "14",
-      "awayLeagueGA": "22",
+      "awayLeagueL": "11",
+      "awayLeagueGF": "15",
+      "awayLeagueGA": "27",
       "awayLeaguePTS": "11",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-15T03:02:42.841Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05y9kvgrx06o72ujuek",
         "name": "Avaí",
@@ -907,33 +913,33 @@
       "season": null,
       "overallPromotion": "Relegation - Serie C (First stage)",
       "overallLeaguePosition": "18",
-      "overallLeaguePlayed": "28",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "7",
       "overallLeagueD": "7",
-      "overallLeagueL": "14",
-      "overallLeagueGF": "38",
-      "overallLeagueGA": "39",
+      "overallLeagueL": "16",
+      "overallLeagueGF": "39",
+      "overallLeagueGA": "43",
       "overallLeaguePTS": "28",
       "homeLeaguePosition": "17",
       "homePromotion": null,
-      "homeLeaguePlayed": "14",
+      "homeLeaguePlayed": "15",
       "homeLeagueW": "4",
       "homeLeagueD": "5",
-      "homeLeagueL": "5",
-      "homeLeagueGF": "22",
-      "homeLeagueGA": "16",
+      "homeLeagueL": "6",
+      "homeLeagueGF": "23",
+      "homeLeagueGA": "18",
       "homeLeaguePTS": "17",
       "awayLeaguePosition": "16",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "3",
       "awayLeagueD": "2",
-      "awayLeagueL": "9",
+      "awayLeagueL": "10",
       "awayLeagueGF": "16",
-      "awayLeagueGA": "23",
+      "awayLeagueGA": "25",
       "awayLeaguePTS": "11",
       "createdAt": "2026-07-14T17:23:59.572Z",
-      "updatedAt": "2026-09-16T03:02:23.817Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmrkx1h3w0rg3ml07nfcb5qes",
         "name": "Londrina",
@@ -957,33 +963,33 @@
       "season": null,
       "overallPromotion": "Relegation - Serie C (First stage)",
       "overallLeaguePosition": "19",
-      "overallLeaguePlayed": "27",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "4",
       "overallLeagueD": "5",
-      "overallLeagueL": "18",
+      "overallLeagueL": "21",
       "overallLeagueGF": "21",
-      "overallLeagueGA": "46",
+      "overallLeagueGA": "50",
       "overallLeaguePTS": "17",
       "homeLeaguePosition": "19",
       "homePromotion": null,
-      "homeLeaguePlayed": "13",
+      "homeLeaguePlayed": "15",
       "homeLeagueW": "3",
       "homeLeagueD": "3",
-      "homeLeagueL": "7",
+      "homeLeagueL": "9",
       "homeLeagueGF": "12",
-      "homeLeagueGA": "18",
+      "homeLeagueGA": "21",
       "homeLeaguePTS": "12",
       "awayLeaguePosition": "19",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "1",
       "awayLeagueD": "2",
-      "awayLeagueL": "11",
+      "awayLeagueL": "12",
       "awayLeagueGF": "9",
-      "awayLeagueGA": "28",
+      "awayLeagueGA": "29",
       "awayLeaguePTS": "5",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-10T03:02:26.030Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05g9kv5rx06i0npuyuf",
         "name": "América Mineiro",
@@ -1007,12 +1013,12 @@
       "season": null,
       "overallPromotion": "Relegation - Serie C (First stage)",
       "overallLeaguePosition": "20",
-      "overallLeaguePlayed": "29",
+      "overallLeaguePlayed": "30",
       "overallLeagueW": "3",
       "overallLeagueD": "4",
-      "overallLeagueL": "22",
+      "overallLeagueL": "23",
       "overallLeagueGF": "17",
-      "overallLeagueGA": "62",
+      "overallLeagueGA": "64",
       "overallLeaguePTS": "13",
       "homeLeaguePosition": "20",
       "homePromotion": null,
@@ -1025,15 +1031,15 @@
       "homeLeaguePTS": "10",
       "awayLeaguePosition": "20",
       "awayPromotion": null,
-      "awayLeaguePlayed": "14",
+      "awayLeaguePlayed": "15",
       "awayLeagueW": "1",
       "awayLeagueD": "0",
-      "awayLeagueL": "13",
+      "awayLeagueL": "14",
       "awayLeagueGF": "7",
-      "awayLeagueGA": "39",
+      "awayLeagueGA": "41",
       "awayLeaguePTS": "3",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-09-20T21:02:34.912Z",
+      "updatedAt": "2026-10-01T01:16:00Z",
       "team": {
         "id": "cmr7wu05p9kv9rx06eo6z5maa",
         "name": "Ponte Preta",
@@ -1049,7 +1055,7 @@
   ],
   "results": [
     {
-      "id": null,
+      "id": "fixture-2026-09-27-criciuma-avai",
       "leagueName": "Brasileirão Série B 2026",
       "matchRound": 30,
       "matchDate": "2026-09-27",
@@ -1067,42 +1073,52 @@
       "source": "Sofascore - página pública",
       "goals": [
         {
-          "player": "Nicolas",
-          "minute": 49
+          "player": "Reynaldo",
+          "minute": 48,
+          "ownGoal": true,
+          "team": "Avaí"
         },
         {
           "player": "Luciano Castan",
-          "minute": 59
+          "minute": 58,
+          "ownGoal": false,
+          "team": "Criciúma"
         },
         {
           "player": "Willean Lepo",
-          "minute": 82
+          "minute": 81,
+          "ownGoal": false,
+          "team": "Criciúma"
         }
-      ]
+      ],
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05y9kvgrx06o72ujuek",
+        "name": "Avaí",
+        "badge": "https://media.goal-api.com/badges/1743_avai.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "verifiedBy": "Avaí F.C. + Criciúma E.C.",
+      "verifiedAt": "2026-10-01T01:16:00Z"
     },
     {
       "id": "cmt71roz1sycst107j8uak7kn",
-      "competition": "Serie B",
-      "matchRound": 29,
-      "kickoffUtc": "2026-09-22T22:30:00.000Z",
-      "matchDate": "2026-09-22",
-      "homeTeamName": "Criciuma",
-      "awayTeamName": "Operario-PR",
-      "homeTeamFtScore": 0,
-      "awayTeamFtScore": 2,
-      "matchStatus": "FINISHED",
-      "source": "GOAL API",
-      "sourceUrl": null
-    },
-    {
-      "id": null,
       "leagueName": "Brasileirão Série B 2026",
       "matchRound": 29,
       "matchDate": "2026-09-22",
       "matchTime": "19:30",
-      "kickoffUtc": "2026-09-22T22:30:00Z",
-      "homeTeamName": "Criciúma",
-      "awayTeamName": "Operário-PR",
+      "kickoffUtc": "2026-09-22T22:30:00.000Z",
+      "homeTeamName": "Criciuma",
+      "awayTeamName": "Operario-PR",
       "matchStatus": "FINISHED",
       "homeTeamFtScore": 0,
       "awayTeamFtScore": 2,
@@ -1110,7 +1126,26 @@
       "dataSource": "Criciúma Esporte Clube",
       "sourceUrl": "https://www.criciumaec.com.br/servico-de-jogo/ficha/865-criciuma-x-operario-pr",
       "apiBacked": false,
-      "source": "Criciúma EC - oficial"
+      "source": "GOAL API",
+      "competition": "Serie B",
+      "verifiedBy": "Criciúma E.C. - oficial",
+      "officialSourceUrl": "https://www.criciumaec.com.br/servico-de-jogo/ficha/865-criciuma-x-operario-pr",
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05w9kverx06sb8ozy6w",
+        "name": "Operário PR",
+        "badge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1742_operario-pr.jpg"
     },
     {
       "id": "cmt71qqpvspcnt107soqfnq1r",
@@ -1124,7 +1159,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05z9kvhrx06ikryezl3",
+        "name": "Atlético Goianiense",
+        "badge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmt71prdzshust1073to91rx5",
@@ -1138,7 +1189,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05i9kv6rx06r5doed0a",
+        "name": "Juventude",
+        "badge": "https://media.goal-api.com/badges/1737_juventude.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1737_juventude.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1737_juventude.jpg"
     },
     {
       "id": "cmt63hvmwf28dt1077pkupuna",
@@ -1152,7 +1219,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05k9kv7rx065nhnpf6v",
+        "name": "Cuiabá",
+        "badge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1738_cuiaba.jpg"
     },
     {
       "id": "cmsvp4nc99dhkpg073zlf6p58",
@@ -1166,7 +1249,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0609kvirx06kek1bg62",
+        "name": "CRB",
+        "badge": "https://media.goal-api.com/badges/1744_crb.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1744_crb.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1744_crb.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmsp4musau5c0pn068pz81jlw",
@@ -1180,7 +1279,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05x9kvfrx06oqpcciea",
+        "name": "Fortaleza",
+        "badge": "https://media.goal-api.com/badges/2018_fortaleza.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/2018_fortaleza.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/2018_fortaleza.jpg"
     },
     {
       "id": "cmsp4llq6tyaapn06zvt4ni3h",
@@ -1194,7 +1309,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu06d9kvprx062mx0mvyk",
+        "name": "Botafogo SP",
+        "badge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmsjm050ic4dioe07djg4x2ko",
@@ -1208,7 +1339,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0619kvjrx067mtep8bz",
+        "name": "Goiás",
+        "badge": "https://media.goal-api.com/badges/1938_goias.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1938_goias.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1938_goias.jpg"
     },
     {
       "id": "cmsb1daqn8rc2kw0692tbjja2",
@@ -1222,7 +1369,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrr150sg3ysomn07bsremxfj",
@@ -1236,7 +1391,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0639kvkrx06ls825ddy",
+        "name": "Náutico FC",
+        "badge": "https://media.goal-api.com/badges/1750_nautico-fc.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1750_nautico-fc.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1750_nautico-fc.jpg"
     },
     {
       "id": "cmrlbdjif0qheru07bxk4h6oe",
@@ -1250,7 +1421,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05o9kv8rx06adgq24rg",
+        "name": "Novorizontino",
+        "badge": "https://media.goal-api.com/badges/1805_novorizontino.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1805_novorizontino.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1805_novorizontino.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrfllqhv03pwm507abat3uy1",
@@ -1264,7 +1451,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmr83jgj0062eo107829vf573",
@@ -1278,7 +1473,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05p9kv9rx06eo6z5maa",
+        "name": "Ponte Preta",
+        "badge": "https://media.goal-api.com/badges/1741_ponte-preta.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1741_ponte-preta.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1741_ponte-preta.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmr83jd47022eo1077fanezfq",
@@ -1292,7 +1503,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05u9kvcrx066idvr5pd",
+        "name": "Sport Recife",
+        "badge": "https://media.goal-api.com/badges/1956_sport-recife.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1956_sport-recife.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1956_sport-recife.jpg"
     },
     {
       "id": "cmrjfz4dxdokdt507y4c1115s",
@@ -1306,7 +1533,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05v9kvdrx06qn8kof5c",
+        "name": "São Bernardo FC",
+        "badge": "https://media.goal-api.com/badges/1916_sao-bernardo-fc.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1916_sao-bernardo-fc.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1916_sao-bernardo-fc.jpg"
     },
     {
       "id": "cmrjfyyl1dfc6t5071ul15y6r",
@@ -1320,7 +1563,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05g9kv5rx06i0npuyuf",
+        "name": "América Mineiro",
+        "badge": "https://media.goal-api.com/badges/1736_america-mineiro.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1736_america-mineiro.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1736_america-mineiro.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjfzh0de7bmt507ahy0ct5e",
@@ -1334,7 +1593,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05s9kvbrx06tgtblb2u",
+        "name": "Ceará",
+        "badge": "https://media.goal-api.com/badges/2016_ceara.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/2016_ceara.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/2016_ceara.jpg"
     },
     {
       "id": "cmsfm36ruldcsny07jz4rvkrz",
@@ -1348,7 +1623,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmrkx1h3w0rg3ml07nfcb5qes",
+        "name": "Londrina",
+        "badge": "https://media.goal-api.com/badges/1785_londrina.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1785_londrina.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1785_londrina.jpg"
     },
     {
       "id": "cmrjg0t8sg7wkt50718ozbvae",
@@ -1362,7 +1653,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05y9kvgrx06o72ujuek",
+        "name": "Avaí",
+        "badge": "https://media.goal-api.com/badges/1743_avai.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjg0if7fqmgt507qm8vhd3v",
@@ -1376,7 +1683,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05w9kverx06sb8ozy6w",
+        "name": "Operário PR",
+        "badge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1742_operario-pr.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjg1nl7hlm0t507x8ths06k",
@@ -1390,7 +1713,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05z9kvhrx06ikryezl3",
+        "name": "Atlético Goianiense",
+        "badge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg"
     },
     {
       "id": "cmrjg2xh1jogot507v4fiedxt",
@@ -1404,7 +1743,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05i9kv6rx06r5doed0a",
+        "name": "Juventude",
+        "badge": "https://media.goal-api.com/badges/1737_juventude.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1737_juventude.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1737_juventude.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjg25m6ib3rt507h1bpafgc",
@@ -1418,7 +1773,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05k9kv7rx065nhnpf6v",
+        "name": "Cuiabá",
+        "badge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjg447zljklt5078kujuv65",
@@ -1432,7 +1803,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0609kvirx06kek1bg62",
+        "name": "CRB",
+        "badge": "https://media.goal-api.com/badges/1744_crb.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1744_crb.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1744_crb.jpg"
     },
     {
       "id": "cmrjgvv89q605o807ljvxdd7y",
@@ -1446,7 +1833,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05x9kvfrx06oqpcciea",
+        "name": "Fortaleza",
+        "badge": "https://media.goal-api.com/badges/2018_fortaleza.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/2018_fortaleza.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/2018_fortaleza.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjgxikwtz0po807mks66yty",
@@ -1460,7 +1863,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu06d9kvprx062mx0mvyk",
+        "name": "Botafogo SP",
+        "badge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg"
     },
     {
       "id": "cmrjgx6ckt4zzo8077mlup8rn",
@@ -1474,7 +1893,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0619kvjrx067mtep8bz",
+        "name": "Goiás",
+        "badge": "https://media.goal-api.com/badges/1938_goias.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1938_goias.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1938_goias.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjgw5cuqizbo807vcya7qpg",
@@ -1488,7 +1923,15 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh132u1mz1o807cqnpmqsp",
@@ -1502,7 +1945,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0639kvkrx06ls825ddy",
+        "name": "Náutico FC",
+        "badge": "https://media.goal-api.com/badges/1750_nautico-fc.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1750_nautico-fc.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1750_nautico-fc.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh1y813kduo807v77djnug",
@@ -1516,7 +1975,15 @@
       "awayTeamFtScore": 2,
       "matchStatus": "AFTER_PEN",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh1f6n2aizo807ftxmlpge",
@@ -1530,7 +1997,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh3yo18d0jo807pbm57tn8",
@@ -1544,7 +2019,15 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh38ju6lcio807dmf1crix",
@@ -1558,7 +2041,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh4ixa9mlro8077r2u5m1r",
@@ -1572,7 +2063,15 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh6pptew31o807vtr71j1b",
@@ -1586,7 +2085,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh5t2icnxro807289ugnty",
@@ -1600,7 +2107,15 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh7jspgqt1o807bfh352gb",
@@ -1614,7 +2129,15 @@
       "awayTeamFtScore": 3,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh6y7xfc2qo807gds4covv",
@@ -1628,7 +2151,15 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh8zh6k99go807xl5z2te7",
@@ -1642,7 +2173,15 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh8e7pivllo807l3epa0dp",
@@ -1656,7 +2195,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjh9vaimabyo807rhzh4tkz",
@@ -1670,7 +2217,23 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05y9kvgrx06o72ujuek",
+        "name": "Avaí",
+        "badge": "https://media.goal-api.com/badges/1743_avai.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1743_avai.jpg"
     },
     {
       "id": "cmrjh9g1flaweo807o81mtrvb",
@@ -1684,7 +2247,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjhcl2dsne5o807nws1lj8y",
@@ -1698,7 +2269,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05k9kv7rx065nhnpf6v",
+        "name": "Cuiabá",
+        "badge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1738_cuiaba.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjhe1kbw2ldo8074ninxted",
@@ -1712,7 +2299,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu06d9kvprx062mx0mvyk",
+        "name": "Botafogo SP",
+        "badge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1753_botafogo-sp.jpg"
     },
     {
       "id": "cmrjhfsdi09feo807w5xqhats",
@@ -1726,7 +2329,23 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu05z9kvhrx06ikryezl3",
+        "name": "Atlético Goianiense",
+        "badge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1929_atletico-goianiense.jpg"
     },
     {
       "id": "cmrjhh95j35ero807bfrd1g3t",
@@ -1740,7 +2359,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjhgvnr28m7o8077vnxx1ap",
@@ -1754,7 +2381,15 @@
       "awayTeamFtScore": 2,
       "matchStatus": "AFTER_PEN",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjhgjt51kuko807ent0shj3",
@@ -1768,7 +2403,23 @@
       "awayTeamFtScore": 2,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0619kvjrx067mtep8bz",
+        "name": "Goiás",
+        "badge": "https://media.goal-api.com/badges/1938_goias.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1938_goias.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1938_goias.jpg"
     },
     {
       "id": "cmrjhj6ho7i9wo807ci8y7yvk",
@@ -1782,7 +2433,15 @@
       "awayTeamFtScore": 0,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     },
     {
       "id": "cmrjhj0sr76g1o807epr0e9qh",
@@ -1796,12 +2455,28 @@
       "awayTeamFtScore": 1,
       "matchStatus": "FINISHED",
       "source": "GOAL API",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "homeTeam": {
+        "id": "cmr7wu05y9kvgrx06o72ujuek",
+        "name": "Avaí",
+        "badge": "https://media.goal-api.com/badges/1743_avai.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1743_avai.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg"
     }
   ],
   "upcoming": [
     {
-      "id": null,
+      "id": "fixture-2026-10-02-londrina-criciuma",
       "leagueName": "Brasileirão Série B 2026",
       "matchRound": 31,
       "matchDate": "2026-10-02",
@@ -1816,7 +2491,25 @@
       "dataSource": "Sofascore",
       "sourceUrl": "https://www.sofascore.com/pt/football/match/londrina-criciuma/JOsxP",
       "apiBacked": false,
-      "source": "Sofascore - página pública"
+      "source": "Sofascore - página pública",
+      "homeTeam": {
+        "id": "cmrkx1h3w0rg3ml07nfcb5qes",
+        "name": "Londrina",
+        "badge": "https://media.goal-api.com/badges/1785_londrina.jpg",
+        "country": "Brazil"
+      },
+      "homeTeamBadge": "https://media.goal-api.com/badges/1785_londrina.jpg",
+      "homeTeamLogo": "https://media.goal-api.com/badges/1785_londrina.jpg",
+      "awayTeam": {
+        "id": "cmr7wu0669kvmrx06zpdn1bqf",
+        "name": "Criciúma",
+        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+        "country": "Brazil"
+      },
+      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
+      "isFuture": true,
+      "countsTowardForm": false
     }
   ],
   "players": [
