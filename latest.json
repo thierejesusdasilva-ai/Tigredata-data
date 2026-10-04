@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-10-01T01:16:00Z",
+  "checkedAt": "2026-10-04T15:17:10.782Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
@@ -53,7 +53,10 @@
     "teamFormsFresh": true,
     "teamFormsReferenceRound": 30,
     "teamFormsUpdatedAt": "2026-09-30",
-    "teamFormsSource": "CBF"
+    "teamFormsSource": "CBF",
+    "playerProfiles": "CENTRAL_MERGED",
+    "playerProfilesMergedAt": "2026-10-04T15:17:10.784Z",
+    "playerProfilesMergedCount": 29
   },
   "standings": [
     {
@@ -4302,7 +4305,14 @@
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
       },
       "imageFallback": "https://api.sofascore.com/api/v1/player/840166/image",
-      "imageSource": "GOAL API"
+      "imageSource": "GOAL API",
+      "fullName": "Alisson Machado dos Santos",
+      "birthdate": "1995-06-08",
+      "birthPlace": "Santiago, Rio Grande do Sul, Brasil",
+      "country": "Brasil",
+      "heightCm": 190,
+      "preferredFoot": "Direito",
+      "profileSource": "Sofascore"
     },
     {
       "name": "Airton",
@@ -4356,7 +4366,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/24701_airton.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/797866/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/g-airton-moraes-michellon.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/g-airton-moraes-michellon.jpg",
+      "fullName": "Airton Moraes Michellon",
+      "birthdate": "1994-05-29",
+      "birthPlace": "São Marcos, Rio Grande do Sul, Brasil",
+      "country": "Brasil",
+      "heightCm": 188,
+      "preferredFoot": "Direito",
+      "profileSource": "Sofascore"
     },
     {
       "name": "Pedro",
@@ -4406,7 +4423,17 @@
       "imageFallback": "https://api.sofascore.com/api/v1/player/1631864/image",
       "imageFallback2": null,
       "imageSource": "Criciúma E.C. - retrato oficial",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/g-pedro-henrique-santos-gomes.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/g-pedro-henrique-santos-gomes.jpg",
+      "fullName": "Pedro Henrique Santos Gomes",
+      "birthdate": "2005-04-19",
+      "birthPlace": "Criciúma-SC",
+      "country": "Brasil",
+      "heightCm": 194,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2026-01-01",
+      "previousClubs": "Criciúma U20",
+      "careerSourceUrl": "https://www.criciuma.com.br/m/noticias/tigre-define-a-lista-de-atletas-que-disputarao-a-copa-sp",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Rodrigo",
@@ -4488,7 +4515,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/5081_rodrigo.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/886773/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-rodrigo-fagundes-de-freitas.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-rodrigo-fagundes-de-freitas.jpg",
+      "fullName": "Rodrigo Fagundes de Freitas",
+      "birthdate": "1987-03-10",
+      "birthPlace": "Coxim, Mato Grosso do Sul, Brasil",
+      "country": "Brasil",
+      "heightCm": 187,
+      "profileSource": "Wikipedia + base verificada"
     },
     {
       "name": "Castán",
@@ -4549,7 +4582,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/1967_c-luciano.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/845110/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-luciano-castan-da-silva.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-luciano-castan-da-silva.jpg",
+      "fullName": "Luciano Castán da Silva",
+      "birthdate": "1989-09-13",
+      "birthPlace": "Jaú, São Paulo, Brasil",
+      "country": "Brasil",
+      "heightCm": 187,
+      "preferredFoot": "Esquerdo",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "César Martins",
@@ -4618,7 +4658,18 @@
       "imageFallback": "https://media.goal-api.com/badges/players/23041_m-cesar.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/329107/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-cesar-martins.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-cesar-martins.jpg",
+      "fullName": "César Henrique Martins",
+      "birthdate": "1992-12-28",
+      "birthPlace": "Mairinque, São Paulo, Brasil",
+      "country": "Brasil",
+      "heightCm": 190,
+      "weightKg": 78,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2026-01-05",
+      "previousClubs": "Atlético Sorocaba; Ponte Preta; Benfica; Flamengo; Nacional da Madeira; Vitória FC; Santa Clara; Juventude; Farense; Bolívar; Novorizontino",
+      "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/cesar-martins-e-apresentado-oficialmente",
+      "profileSource": "Wikipedia + Criciúma E.C."
     },
     {
       "name": "Bruno Alves",
@@ -4686,7 +4737,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/19856_a-bruno.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/551810/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-bruno-fabiano-alves.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-bruno-fabiano-alves.jpg",
+      "fullName": "Bruno Fabiano Alves",
+      "birthdate": "1991-04-16",
+      "birthPlace": "Jacareí, São Paulo, Brasil",
+      "country": "Brasil",
+      "heightCm": 184,
+      "preferredFoot": "Direito",
+      "profileSource": "Sofascore"
     },
     {
       "name": "Rômulo Júnior",
@@ -4713,7 +4771,18 @@
       "imageFallback": "https://media.goal-api.com/badges/players/128883_romulus.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/1117102/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-romulo-helberte-pereira-junior.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-romulo-helberte-pereira-junior.jpg",
+      "fullName": "Rômulo Helberte Pereira Júnior",
+      "birthdate": "2004-01-31",
+      "birthPlace": "Belo Horizonte-MG",
+      "country": "Brasil",
+      "heightCm": 183,
+      "weightKg": 78,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2026-09-03",
+      "previousClubs": "Atlético Mineiro; Sporting; Sporting B",
+      "careerSourceUrl": "https://www.transfermarkt.com.br/romulo/profil/spieler/743588",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Octávio",
@@ -4740,7 +4809,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/339288_h-octavio.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/2433934/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-octavio-henrique-de-jesus-goncalves.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/z-octavio-henrique-de-jesus-goncalves.jpg",
+      "fullName": "Octávio Henrique de Jesus Gonçalves",
+      "birthdate": "2005-01-07",
+      "birthPlace": "Guarulhos-SP",
+      "country": "Brasil",
+      "heightCm": 193,
+      "weightKg": 75,
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Ruan",
@@ -4873,7 +4949,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/33573_h-marcelo.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/783490/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-marcelo-hermes.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-marcelo-hermes.jpg",
+      "fullName": "Marcelo Hermes",
+      "birthdate": "1995-02-01",
+      "birthPlace": "Sarandi, Rio Grande do Sul, Brasil",
+      "country": "Brasil",
+      "weightKg": 72,
+      "profileSource": "Sofascore + Criciúma oficial"
     },
     {
       "name": "Marcinho",
@@ -4930,7 +5012,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/66199_marcinho.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/840148/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-marcio-almeida-de-oliveira.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-marcio-almeida-de-oliveira.jpg",
+      "fullName": "Márcio Almeida de Oliveira",
+      "birthdate": "1996-05-16",
+      "birthPlace": "Rio de Janeiro, Rio de Janeiro, Brasil",
+      "country": "Brasil",
+      "heightCm": 178,
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Hiago",
@@ -4982,7 +5070,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/153449_a-hiago.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/1914330/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-hiago-accinelli-da-roza-alves.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/l-hiago-accinelli-da-roza-alves.jpg",
+      "fullName": "Hiago Accinelli da Roza Alves",
+      "birthdate": "2005-09-02",
+      "birthPlace": "Porto Alegre-RS",
+      "country": "Brasil",
+      "heightCm": 168,
+      "weightKg": 70,
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Willean Lepo",
@@ -5125,7 +5220,17 @@
       "imageFallback": "https://media.goal-api.com/badges/players/125007_l-gui.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/1148301/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-guilherme-teixeira-lobo.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-guilherme-teixeira-lobo.jpg",
+      "fullName": "Guilherme Teixeira Lobo",
+      "birthdate": "1999-10-14",
+      "birthPlace": "São Paulo-SP",
+      "country": "Brasil",
+      "heightCm": 171,
+      "weightKg": 68,
+      "preferredFoot": "Direito",
+      "previousClubs": "Santa Catarina; União Suzano; Juventus-SP; Nacional-SP; Treze",
+      "careerSourceUrl": "https://www.ogol.com.br/jogador/gui-lobo/783617",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Jean Irmer",
@@ -5191,7 +5296,14 @@
       "imageFallback": "https://media.goal-api.com/badges/players/49949_i-jean.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/848630/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-jean-carlos-de-souza-irmer.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-jean-carlos-de-souza-irmer.jpg",
+      "fullName": "Jean Carlos de Souza Irmer",
+      "birthdate": "1994-09-26",
+      "birthPlace": "Taquatinga, Distrito Federal, Brasil",
+      "country": "Brasil",
+      "heightCm": 183,
+      "preferredFoot": "Direito",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Ronald",
@@ -5243,7 +5355,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/77923_l-ronald.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/931521/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-ronald-dos-santos-lopes.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-ronald-dos-santos-lopes.jpg",
+      "fullName": "Ronald dos Santos Lopes",
+      "birthdate": "1997-06-18",
+      "birthPlace": "Belford Roxo, Rio de Janeiro, Brasil",
+      "country": "Brasil",
+      "heightCm": 171,
+      "profileSource": "Wikipedia + base verificada"
     },
     {
       "name": "Thiaguinho",
@@ -5299,7 +5417,15 @@
       "imageFallback": "https://api.sofascore.com/api/v1/player/1636364/image",
       "imageFallback2": null,
       "imageSource": "Criciúma E.C. - retrato oficial",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-thiago-ramon-santos-modesto.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/v-thiago-ramon-santos-modesto.jpg",
+      "fullName": "Thiago Ramon Santos Modesto",
+      "birthdate": "2006-02-01",
+      "birthPlace": "Marcolândia-PI",
+      "country": "Brasil",
+      "heightCm": 175,
+      "preferredFoot": "Direito",
+      "careerSourceUrl": "https://www.sofascore.com/pt/football/player/thiago-ramon-santos-modesto/1636364",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Eduardo",
@@ -5371,7 +5497,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/57239_eduardo.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/870800/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-eduardo-jacinto-de-biasi.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-eduardo-jacinto-de-biasi.jpg",
+      "fullName": "Eduardo Jacinto de Biasi",
+      "birthdate": "1997-01-09",
+      "birthPlace": "Treze de Maio, Santa Catarina, Brasil",
+      "country": "Brasil",
+      "heightCm": 178,
+      "profileSource": "Wikipedia + base verificada"
     },
     {
       "name": "Fellipe Mateus",
@@ -5443,7 +5575,12 @@
       "imageFallback": "https://media.goal-api.com/badges/players/23445_m-fellipe.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/865321/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-fellipe-mateus-de-sena-araujo.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-fellipe-mateus-de-sena-araujo.jpg",
+      "fullName": "Fellipe Mateus de Sena Araújo",
+      "birthdate": "1991-02-12",
+      "birthPlace": "Campina Grande, Paraíba, Brasil",
+      "country": "Brasil",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Jhonata Robert",
@@ -5528,7 +5665,12 @@
       "imageFallback": "https://media.goal-api.com/badges/players/100339_r-jhonata.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/998494/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-jhonata-robert-alves-da-silva.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/m-jhonata-robert-alves-da-silva.jpg",
+      "fullName": "Jhonata Robert Alves da Silva",
+      "birthdate": "1999-10-26",
+      "birthPlace": "Recife, Pernambuco, Brasil",
+      "country": "Brasil",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Otero",
@@ -5543,7 +5685,7 @@
       "lastMatch": null,
       "heatmap": null,
       "sofaProfileUrl": "https://www.sofascore.com/pt/football/player/romulo-otero/845323",
-      "heightCm": 166,
+      "heightCm": 165,
       "preferredFoot": "Direito",
       "sofaProfileVerifiedAt": "2026-09-24",
       "sofascoreName": "Rómulo Otero",
@@ -5602,7 +5744,16 @@
       "imageFallback": "https://media.goal-api.com/badges/players/7685_r-otero.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/845323/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-romulo-otero-vasquez.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-romulo-otero-vasquez.jpg",
+      "fullName": "Rómulo Otero Vásquez",
+      "birthdate": "1992-11-09",
+      "birthPlace": "El Tigre, Anzoátegui, Venezuela",
+      "country": "Venezuela",
+      "weightKg": 66,
+      "joinedCriciumaDate": "2026-02-07",
+      "previousClubs": "Nacional; Santos; Aucas; Fortaleza; Cruz Azul; Corinthians; Atlético Mineiro; Al-Wehda; Huachipato; Caracas",
+      "careerSourceUrl": "https://www.ogol.com.br/jogador/romulo-otero/156460",
+      "profileSource": "Transfermarkt + oGol"
     },
     {
       "name": "Waguininho",
@@ -5684,7 +5835,17 @@
       "imageFallback": "https://media.goal-api.com/badges/players/32838_waguininho.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/924251/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-wagner-da-silva-souza.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-wagner-da-silva-souza.jpg",
+      "fullName": "Wagner da Silva Souza",
+      "birthdate": "1990-01-30",
+      "birthPlace": "Cubatão, São Paulo, Brasil",
+      "country": "Brasil",
+      "heightCm": 178,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2025-12-04",
+      "previousClubs": "São Vicente; Mogi Mirim; Oeste; Bucheon; Suwon Bluewings; Guarani; Coritiba; Avaí; Cruzeiro; Novorizontino",
+      "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/tigre-acerta-a-contratacao-do-atacante-waguininho",
+      "profileSource": "Wikipedia + base verificada"
     },
     {
       "name": "Nicolas",
@@ -5829,7 +5990,15 @@
       "imageFallback": "https://media.goal-api.com/badges/players/38909_g-diego.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/344077/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-diego-goncalves.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-diego-goncalves.jpg",
+      "fullName": "Diego Gonçalves",
+      "birthdate": "1994-09-22",
+      "birthPlace": "Guarujá, São Paulo, Brasil",
+      "country": "Brasil",
+      "heightCm": 183,
+      "previousClubs": "Criciúma desde 2025; histórico anterior a completar",
+      "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/marcinho-e-diego-goncalves-renovam-para-2026",
+      "profileSource": "Wikipedia + Goal API"
     },
     {
       "name": "Yuri Tanque",
@@ -5881,7 +6050,18 @@
       "imageFallback": "https://media.goal-api.com/badges/players/79926_t-yuri.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/877626/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-yuri-jonathan-vitor-coelho.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-yuri-jonathan-vitor-coelho.jpg",
+      "fullName": "Yuri Jonathan Vitor Coelho",
+      "birthdate": "1998-06-12",
+      "birthPlace": "Nova Era-MG",
+      "country": "Brasil",
+      "heightCm": 185,
+      "weightKg": 80,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2026-01-15",
+      "previousClubs": "Jeju United",
+      "careerSourceUrl": "https://www.transfermarkt.com.br/yuri-tanque/profil/spieler/514298",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Romarinho",
@@ -5939,7 +6119,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/33972_romarinho.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/870578/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-jose-romario-silva-de-souza.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-jose-romario-silva-de-souza.jpg",
+      "fullName": "José Romário Silva de Souza",
+      "birthdate": "1994-03-01",
+      "birthPlace": "Ceará-Mirim, Rio Grande do Norte, Brasil",
+      "country": "Brasil",
+      "heightCm": 168,
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Cauê",
@@ -5990,7 +6176,16 @@
       "imageFallback": "https://api.sofascore.com/api/v1/player/831516/image",
       "imageFallback2": null,
       "imageSource": "Criciúma E.C. - retrato oficial",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-caue-vinicius-dos-santos.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-caue-vinicius-dos-santos.jpg",
+      "fullName": "Cauê Vinicius dos Santos",
+      "birthdate": "2002-11-16",
+      "birthPlace": "Ituverava-SP",
+      "country": "Brasil",
+      "heightCm": 184,
+      "weightKg": 76,
+      "preferredFoot": "Direito",
+      "previousClubs": "Lommel SK",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "João Carlos",
@@ -6048,7 +6243,13 @@
       "imageFallback": "https://media.goal-api.com/badges/players/122021_c-joao.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/1462654/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-joao-carlos-barros-lopes.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-joao-carlos-barros-lopes.jpg",
+      "fullName": "João Carlos Barros Lopes",
+      "birthdate": "2001-06-21",
+      "birthPlace": "Campo Erê, Santa Catarina, Brasil",
+      "country": "Brasil",
+      "heightCm": 168,
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Kauã Moroso",
@@ -6073,7 +6274,18 @@
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
       },
       "imageFallback": "https://api.sofascore.com/api/v1/player/2472108/image",
-      "imageSource": "GOAL API"
+      "imageSource": "GOAL API",
+      "fullName": "Kauã Inácio Moroso",
+      "birthdate": "2004-03-11",
+      "birthPlace": "Criciúma-SC",
+      "country": "Brasil",
+      "heightCm": 190,
+      "weightKg": 83,
+      "preferredFoot": "Direito",
+      "joinedCriciumaDate": "2025-01-01",
+      "previousClubs": "Caravaggio FC",
+      "careerSourceUrl": "https://www.ogol.com.br/jogador/kaua-moroso/841278",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Erick Garcia",
@@ -6098,7 +6310,16 @@
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
       },
       "imageFallback": "https://api.sofascore.com/api/v1/player/1808902/image",
-      "imageSource": "GOAL API"
+      "imageSource": "GOAL API",
+      "fullName": "Erick Ryan Garcia da Silva",
+      "birthdate": "2005-06-04",
+      "birthPlace": "Irati-PR",
+      "country": "Brasil",
+      "heightCm": 187,
+      "preferredFoot": "Direito",
+      "previousClubs": "Iraty; Criciúma U20; Caravaggio FC",
+      "careerSourceUrl": "https://www.ogol.com.br/jogador/erick-garcia/981135",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Kayck",
@@ -6146,7 +6367,14 @@
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
       },
       "imageFallback": "https://api.sofascore.com/api/v1/player/973847/image",
-      "imageSource": "GOAL API"
+      "imageSource": "GOAL API",
+      "fullName": "Sandry Roberto Santos Goes",
+      "birthdate": "2002-08-30",
+      "birthPlace": "Itabuna, Bahia, Brasil",
+      "country": "Brasil",
+      "heightCm": 174,
+      "preferredFoot": "Direito",
+      "profileSource": "Goal API / elenco"
     },
     {
       "name": "Eliel",
