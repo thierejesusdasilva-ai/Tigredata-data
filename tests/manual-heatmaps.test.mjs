@@ -33,11 +33,14 @@ test('guarda mapas por partida e atualiza indice de cada jogador sem duplicar',a
   assert.equal(a.players,2);
   assert.equal(a.points,3);
   await writeSnapshot(verified,dir);
+  // Nova coleta do mesmo jogo pode conter menos atletas, sem referencias fantasmas.
+  await writeSnapshot({...verified,players:verified.players.slice(0,1)},dir);
   const index=JSON.parse(await fs.readFile(path.join(dir,'heatmaps/index.json'),'utf8'));
   const archive=JSON.parse(await fs.readFile(path.join(dir,'heatmaps/events/'+eventId+'.json'),'utf8'));
   assert.equal(index.players['783490'].length,1);
   assert.equal(archive.players[0].points[1].x,57);
   assert.equal(archive.source,'Sofascore (mapa por partida)');
-  assert.equal(index.events[eventId].players.length,2);
+  assert.equal(index.events[eventId].players.length,1);
+  assert.equal(index.players['845323'],undefined);
  }finally{await fs.rm(dir,{recursive:true,force:true})}
 });
