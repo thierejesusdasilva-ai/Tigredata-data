@@ -102,6 +102,12 @@ export async function writeSnapshot(record, root='.'){
  if(index.schemaVersion!==1||typeof index.events!=='object'||typeof index.players!=='object')fail('INDICE_INVALIDO');
  const oldEvent=index.events[record.eventId];
  if(oldEvent&&oldEvent.matchDate!==record.matchDate)fail('CONFLITO_DE_DATA_DA_PARTIDA');
+ // Substituir uma mesma partida remove referencias antigas de jogadores ausentes na nova captura.
+ if(oldEvent)for(const [id,list] of Object.entries(index.players)){
+  if(!Array.isArray(list))fail('INDICE_DE_JOGADORES_INVALIDO');
+  const cleaned=list.filter(e=>String(e.eventId)!==record.eventId);
+  if(cleaned.length)index.players[id]=cleaned;else delete index.players[id];
+ }
  const now=new Date().toISOString();
  const archive={...record,importedAt:now};
  // Garante que o índice só aponte para mapas publicados e validados.
