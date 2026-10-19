@@ -18,6 +18,14 @@ const fetchData=async(name,url)=>{
  if(!Array.isArray(athletes))athletes=[];
  athletes=athletes.flatMap(a=>Array.isArray(a.items)?a.items:[a]);
  const keys=o=>o&&typeof o==="object"?Object.keys(o):[];
+ if(name==='espnRoster'){
+   const sample=athletes.find(a=>a.displayName==='Marcelo Hermes')||athletes[0];
+   const stats=sample?.statistics||{};
+   console.log('ROSTER_STAT_SHAPE',JSON.stringify({name:sample?.displayName,allPlayerKeys:Object.keys(sample||{}),statKeys:Object.keys(stats),splitsType:typeof stats.splits,splitKeys:Object.keys(stats.splits||{}),splitSample:JSON.stringify(stats.splits||{}).slice(0,2300)},null,2));
+ }
+ if(name==='espnStats'){
+   console.log('TEAM_STAT_SHAPE',JSON.stringify({resultsCount:obj.results?.length,resultsSample:JSON.stringify(obj.results||[]).slice(0,2500)},null,2));
+ }
  const playerFields=athletes.slice(0,1).map(x=>Object.fromEntries(Object.entries(x).filter(([k,v])=>/name|date|birth|weight|height|position|jersey|age|foot|citizenship|national|id|statistics|stats|team/i.test(k)).map(([k,v])=>[k, typeof v==="object"?(Array.isArray(v)?v.slice(0,1):Object.fromEntries(Object.entries(v).slice(0,5))):v])));
  return {name,status:r.status,keys:keys(obj),team:obj.team?.displayName||obj.team?.name,players:athletes.length,athletes:athletes.slice(0,40).map(x=>({id:x.id,name:x.displayName||x.fullName||x.name,jersey:x.jersey})),playerFields,sampleKeys:keys(obj.stats||obj.statistics),statsKeys:keys(obj.statistics||{}),squadKeys:keys(obj.squad||{})};
  }catch(e){return {name,error:String(e?.message||e).slice(0,200)}}
