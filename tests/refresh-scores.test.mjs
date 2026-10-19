@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseEvent,mergeFeed} from '../scripts/refresh-scores.mjs';
+import {parseEvent,mergeFeed,applyVerifiedStandings} from '../scripts/refresh-scores.mjs';
 
 const now=new Date('2026-10-19T18:00:00Z');
 const event=(id,dt='2026-10-18T23:30:00Z',status='post',scoreH='2',scoreA='1')=>({
@@ -41,4 +41,21 @@ test('nao sobrescreve resultado conflitante de fonte ja registrada',()=>{
 
 test('impede atualizar feed por ausencia de jogos verificaveis',()=>{
  assert.throws(()=>mergeFeed({results:[],upcoming:[],sourceState:{}},[],now),/partidas validas/);
+});
+
+
+test('atualiza tabela inteira com 20 times e nomes equivalentes, sem inventar informacoes',()=>{
+ const oldTeams=['Vila Nova FC','Novorizontino','Juventude','Fortaleza','Criciuma','Atletico GO','CRB','Sport Recife','Goias','Operario-PR','Cuiaba','Sao Bernardo','Botafogo SP','Athletic Club','Ceara','Nautico','Avai','Londrina','America MG','Ponte Preta'];
+ const names=['Vila Nova','Novorizontino','Juventude','Fortaleza','Criciúma','Atlético Goianiense','CRB','Sport','Goiás','Operário PR','Cuiabá','São Bernardo','Botafogo-SP','Athletic','Ceará','Náutico','Avaí','Londrina','América Mineiro','Ponte Preta'];
+ const data={season:{year:2026},children:[{standings:{entries:names.map((displayName,i)=>({team:{displayName},stats:[
+ {name:'rank',value:i+1},{name:'gamesPlayed',value:1},{name:'wins',value:1},{name:'ties',value:0},{name:'losses',value:0},
+ {name:'pointsFor',value:2},{name:'pointsAgainst',value:1},{name:'points',value:3}
+ ]}))}}]};
+ const feed={standings:oldTeams.map(teamName=>({teamName,overallLeaguePTS:'0'})),sourceState:{}};
+ const updated=applyVerifiedStandings(feed,data,now);
+ assert.equal(updated.standings.length,20);
+ assert.equal(updated.standings.find(x=>x.teamName==='Criciuma').overallLeaguePosition,'5');
+ assert.equal(updated.standings.find(x=>x.teamName==='Criciuma').overallLeaguePTS,'3');
+ assert.equal(updated.sourceState.standingsFresh,true);
+ assert.throws(()=>applyVerifiedStandings(feed,{...data,children:[]},now),/incompleta/);
 });
