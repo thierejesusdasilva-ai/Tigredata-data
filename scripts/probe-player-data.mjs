@@ -21,7 +21,7 @@ const fetchData=async(name,url)=>{
  if(name==='espnRoster'){
    const sample=athletes.find(a=>a.displayName==='Marcelo Hermes')||athletes[0];
    const stats=sample?.statistics||{};
-   console.log('ROSTER_STAT_SHAPE',JSON.stringify({name:sample?.displayName,allPlayerKeys:Object.keys(sample||{}),statKeys:Object.keys(stats),splitsType:typeof stats.splits,splitKeys:Object.keys(stats.splits||{}),splitSample:JSON.stringify(stats.splits||{}).slice(0,2300)},null,2));
+   console.log('ROSTER_STAT_SHAPE',JSON.stringify({name:sample?.displayName,allPlayerKeys:Object.keys(sample||{}),statKeys:Object.keys(stats),metricNames:(stats.splits?.categories||[]).flatMap(x=>(x.stats||[]).map(s=>s.name)),samples:athletes.filter(x=>['Marcelo Hermes','Airton','Fellipe Mateus'].includes(x.displayName)).map(x=>({name:x.displayName,height:x.height,weight:x.weight,dob:x.dateOfBirth,birthPlace:x.birthPlace,stats:(x.statistics?.splits?.categories||[]).flatMap(c=>(c.stats||[]).map(s=>[s.name,s.value]))})),splitsType:typeof stats.splits,splitKeys:Object.keys(stats.splits||{}),splitSample:JSON.stringify(stats.splits||{}).slice(0,2300)},null,2));
  }
  if(name==='espnStats'){
    console.log('TEAM_STAT_SHAPE',JSON.stringify({resultsCount:obj.results?.length,resultsSample:JSON.stringify(obj.results||[]).slice(0,2500)},null,2));
