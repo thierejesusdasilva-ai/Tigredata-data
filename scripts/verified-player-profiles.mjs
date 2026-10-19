@@ -26,7 +26,7 @@ export const VERIFIED_PLAYERS=[
     fields:{
       fullName:'Willean Bernardo Willemen',birthdate:'1997-01-16',
       heightCm:182,weightKg:78,preferredFoot:'Direito',
-      country:'Brasil',number:'97',espnId:'251863',squadStatus:'first_team'
+      country:'Brasil',espnId:'251863',squadStatus:'first_team'
     },
     sources:{
       fullName:'https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen',
@@ -35,28 +35,27 @@ export const VERIFIED_PLAYERS=[
       weightKg:'https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen',
       preferredFoot:'https://www.sofascore.com/pt/football/player/willean-lepo/868076',
       country:'https://www.sofascore.com/pt/football/player/willean-lepo/868076',
-      number:'https://www.sofascore.com/pt/football/player/willean-lepo/868076',
       espnId:'https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026',
       squadStatus:'https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen'
     },
-    note:'ESPN escreve Willean Lepu; clube escreve Willean Lepo. A camisa diverge (ESPN 2, Sofascore 97). Registrar a fonte da camisa e evitar sobrescrever.'
+    note:'ESPN escreve Willean Lepu; clube escreve Willean Lepo. Sem camisa confirmada pelo clube: usar identificador ESPN e atualizar camisa somente pelo dado da fonte.'
   },
   {
     sofaId:'2677500',name:'Kayck',
     fields:{
-      fullName:'Kayck Gomes Carvalho',birthdate:'2007-02-10',
+      fullName:'Kayck Gomes Carvalho',birthdate:'2007-10-02',
       country:'Brasil',position:'Laterais',squadStatus:'academy',
       squadCategory:'Sub-20'
     },
     sources:{
       fullName:'https://www.criciuma.com.br/m/noticias/roberto-volpato-define-a-pre-lista-para-a-copa-sp',
-      birthdate:'https://www.sofascore.com/pt/football/player/kayck/2677500',
+      birthdate:'https://fcf-sc.s3.sa-east-1.amazonaws.com/wp-content/uploads/2025/04/30180147/EDITAL.pdf',
       country:'https://www.sofascore.com/pt/football/player/kayck/2677500',
       position:'https://www.criciuma.com.br/m/noticias/roberto-volpato-define-a-pre-lista-para-a-copa-sp',
       squadStatus:'https://www.criciuma.com.br/m/noticias/tigre-e-tetracampeao-catarinense-sub-20',
       squadCategory:'https://www.criciuma.com.br/m/noticias/tigre-e-tetracampeao-catarinense-sub-20'
     },
-    note:'O clube o identifica como lateral-direito do Sub-20 em 2026. Não atribuir estatísticas da Série B profissional sem registro de participação.'
+    note:'CBF lista Kayck Gomes Carvalho na Série B e Sub-20; o clube o identifica como lateral-direito do Sub-20 em 2026. Data de nascimento 02/10/2007 no edital FCF, diferente de algumas bases; não inventar participações.'
   },
   {
     sofaId:'973847',name:'Sandry',
