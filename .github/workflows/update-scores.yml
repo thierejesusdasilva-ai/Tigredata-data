@@ -41,6 +41,9 @@ jobs:
       - run: node --check scripts/refresh-scores.mjs
       - run: node --check scripts/refresh-players.mjs
       - run: node --test tests/refresh-scores.test.mjs tests/refresh-players.test.mjs
+      - name: Testar APIs reais sem publicar dados
+        if: github.event_name == 'pull_request'
+        run: node scripts/refresh-scores.mjs
 
   refresh:
     if: github.event_name != 'pull_request'
