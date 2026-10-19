@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-10-04T15:17:10.782Z",
+  "checkedAt": "2026-10-19T21:08:54.409Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
     "officialRosterAt": "2026-09-24",
-    "standingsFresh": true,
+    "standingsFresh": false,
     "hasNewIndividualGoalStats": true,
     "sofascoreCommercialApproved": false,
     "note": "GOAL/API principal preservada. Sofascore complementado pela pagina publica quando a API interna bloqueia o IP do GitHub.",
@@ -50,13 +50,20 @@
     "matchDeduplication": "date+home+away+score",
     "futureMatchesExcludedFromForm": true,
     "teamBadgesEmbeddedInMatches": true,
-    "teamFormsFresh": true,
+    "teamFormsFresh": false,
     "teamFormsReferenceRound": 30,
     "teamFormsUpdatedAt": "2026-09-30",
     "teamFormsSource": "CBF",
     "playerProfiles": "CENTRAL_MERGED",
     "playerProfilesMergedAt": "2026-10-04T15:17:10.784Z",
-    "playerProfilesMergedCount": 29
+    "playerProfilesMergedCount": 29,
+    "espn": {
+      "status": "OK",
+      "checkedAt": "2026-10-19T21:08:54.409Z",
+      "fixtures": 3,
+      "conflicts": [],
+      "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/scoreboard"
+    }
   },
   "standings": [
     {
@@ -2802,6 +2809,44 @@
   ],
   "results": [
     {
+      "id": "espn-401860400",
+      "leagueName": "Brasileirão Série B 2026",
+      "matchRound": null,
+      "matchDate": "2026-10-18",
+      "matchTime": "16:00",
+      "kickoffUtc": "2026-10-18T19:00:00.000Z",
+      "homeTeamName": "São Bernardo",
+      "awayTeamName": "Criciúma",
+      "matchStatus": "FINISHED",
+      "homeTeamFtScore": 0,
+      "awayTeamFtScore": 1,
+      "matchStadium": "Estádio Primeiro de Maio",
+      "dataSource": "ESPN",
+      "source": "ESPN Série B (complementar)",
+      "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
+      "apiBacked": true,
+      "verifiedAt": "2026-10-19T21:08:54.409Z"
+    },
+    {
+      "id": "espn-401860387",
+      "leagueName": "Brasileirão Série B 2026",
+      "matchRound": null,
+      "matchDate": "2026-10-12",
+      "matchTime": "19:30",
+      "kickoffUtc": "2026-10-12T22:30:00.000Z",
+      "homeTeamName": "Criciúma",
+      "awayTeamName": "América Mineiro",
+      "matchStatus": "FINISHED",
+      "homeTeamFtScore": 1,
+      "awayTeamFtScore": 0,
+      "matchStadium": "Heriberto Hülse",
+      "dataSource": "ESPN",
+      "source": "ESPN Série B (complementar)",
+      "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
+      "apiBacked": true,
+      "verifiedAt": "2026-10-19T21:08:54.409Z"
+    },
+    {
       "id": "fixture-2026-09-27-criciuma-avai",
       "leagueName": "Brasileirão Série B 2026",
       "matchRound": 30,
@@ -4223,40 +4268,23 @@
   ],
   "upcoming": [
     {
-      "id": "fixture-2026-10-02-londrina-criciuma",
+      "id": "espn-401860408",
       "leagueName": "Brasileirão Série B 2026",
-      "matchRound": 31,
-      "matchDate": "2026-10-02",
-      "matchTime": "20:30",
-      "kickoffUtc": "2026-10-02T23:30:00Z",
-      "homeTeamName": "Londrina",
+      "matchRound": null,
+      "matchDate": "2026-10-23",
+      "matchTime": "21:00",
+      "kickoffUtc": "2026-10-24T00:00:00.000Z",
+      "homeTeamName": "Sport",
       "awayTeamName": "Criciúma",
       "matchStatus": "SCHEDULED",
       "homeTeamFtScore": null,
       "awayTeamFtScore": null,
-      "matchStadium": "Estádio Jacy Scaff",
-      "dataSource": "Sofascore",
-      "sourceUrl": "https://www.sofascore.com/pt/football/match/londrina-criciuma/JOsxP",
-      "apiBacked": false,
-      "source": "Sofascore - página pública",
-      "homeTeam": {
-        "id": "cmrkx1h3w0rg3ml07nfcb5qes",
-        "name": "Londrina",
-        "badge": "https://media.goal-api.com/badges/1785_londrina.jpg",
-        "country": "Brazil"
-      },
-      "homeTeamBadge": "https://media.goal-api.com/badges/1785_londrina.jpg",
-      "homeTeamLogo": "https://media.goal-api.com/badges/1785_londrina.jpg",
-      "awayTeam": {
-        "id": "cmr7wu0669kvmrx06zpdn1bqf",
-        "name": "Criciúma",
-        "badge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
-        "country": "Brazil"
-      },
-      "awayTeamBadge": "https://media.goal-api.com/badges/1802_criciuma.jpg",
-      "awayTeamLogo": "https://media.goal-api.com/badges/1802_criciuma.jpg",
-      "isFuture": true,
-      "countsTowardForm": false
+      "matchStadium": "Ilha do Retiro",
+      "dataSource": "ESPN",
+      "source": "ESPN Série B (complementar)",
+      "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
+      "apiBacked": true,
+      "verifiedAt": "2026-10-19T21:08:54.409Z"
     }
   ],
   "players": [
