@@ -110,17 +110,35 @@ export function mergeFeed(feed,events,now=new Date()){
 }
 
 async function getEvents(now){
-  const from=isoDate(plusDays(now,-14));
-  const to=isoDate(plusDays(now,14));
-  const url=SCOREBOARD+'?dates='+from+'-'+to+'&limit=200';
-  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),18000);
-  try{
-    const r=await fetch(url,{headers:{Accept:'application/json','User-Agent':'TigreDataUpdater/1.0'},signal:controller.signal});
-    if(!r.ok)throw new Error('Fonte ESPN HTTP '+r.status);
-    const data=await r.json();
-    if(!Array.isArray(data?.events))throw new Error('Resposta ESPN nao contem events');
-    return data.events;
-  }finally{clearTimeout(timeout)}
+  // ESPN limita as janelas aceitas; consultar dias individuais, nunca um mes inteiro.
+  // Periodo de ~duas semanas cobre o ultimo e o proximo compromisso do clube.
+  const offsets=[0,-1,1,-2,2,-3,3,-4,4,-5,5,-6,6,-7,7];
+  const events=new Map();
+  let okDays=0;
+  const errors=[];
+  for(const shift of offsets){
+    const date=isoDate(plusDays(now,shift));
+    const url=SCOREBOARD+'?dates='+date+'&limit=100';
+    const controller=new AbortController();
+    const timeout=setTimeout(()=>controller.abort(),12000);
+    try{
+      const r=await fetch(url,{headers:{Accept:'application/json','User-Agent':'TigreDataUpdater/1.0'},signal:controller.signal});
+      if(!r.ok){
+        errors.push(date+':HTTP '+r.status);
+        if([401,403,429].includes(r.status))throw new Error('Fonte ESPN bloqueou consultas: HTTP '+r.status);
+        continue;
+      }
+      const data=await r.json();
+      if(!Array.isArray(data?.events)){errors.push(date+': formato invalido');continue}
+      okDays++;
+      for(const e of data.events)if(e?.id)events.set(String(e.id),e);
+    }catch(e){
+      errors.push(date+': '+String(e.message||e));
+      if(/bloqueou consultas/.test(e.message||''))throw e;
+    }finally{clearTimeout(timeout)}
+  }
+  if(!okDays)throw new Error('ESPN nao respondeu dias validos: '+errors.slice(0,5).join('; '));
+  return [...events.values()];
 }
 
 async function main(){
