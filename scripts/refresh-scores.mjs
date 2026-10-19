@@ -109,6 +109,68 @@ export function mergeFeed(feed,events,now=new Date()){
   };
 }
 
+
+const STANDINGS_URL='https://site.api.espn.com/apis/v2/sports/soccer/bra.2/standings?season=2026';
+const ALIASES={
+  vilanovafc:'vilanova',
+  atleticogo:'atleticogoianiense',
+  sportrecife:'sport',
+  athleticclub:'athletic',
+  americamg:'americamineiro'
+};
+const teamKey=name=>ALIASES[norm(name)]||norm(name);
+const statNum=(entry,name)=>numeric(entry?.stats?.find(s=>s.name===name)?.value);
+
+export function applyVerifiedStandings(feed,data,now=new Date()){
+  if(Number(data?.season?.year)!==2026)throw new Error('Classificacao de temporada inesperada.');
+  const rows=(data.children||[]).flatMap(g=>g?.standings?.entries||[]);
+  if(rows.length!==20||feed.standings?.length!==20)throw new Error('Classificacao incompleta: '+rows.length);
+  const mapped=new Map();
+  for(const row of rows){
+    const key=teamKey(row.team?.displayName||'');
+    if(!key||mapped.has(key))throw new Error('Nome de equipe ambiguo na classificacao');
+    mapped.set(key,row);
+  }
+  const positions=new Set();
+  const result=feed.standings.map(old=>{
+    const row=mapped.get(teamKey(old.teamName));
+    if(!row)throw new Error('Equipe nao encontrada na classificacao ESPN: '+old.teamName);
+    const names=['rank','gamesPlayed','wins','ties','losses','pointsFor','pointsAgainst','points'];
+    const values=Object.fromEntries(names.map(name=>[name,statNum(row,name)]));
+    if(Object.values(values).some(v=>v===null||v<0||!Number.isInteger(v)))throw new Error('Estatistica ausente: '+old.teamName);
+    if(values.rank<1||values.rank>20||positions.has(values.rank))throw new Error('Classificacao repetida: '+old.teamName);
+    if(values.gamesPlayed!==values.wins+values.ties+values.losses)throw new Error('Jogos incompatíveis: '+old.teamName);
+    if(values.gamesPlayed>38||values.points>114)throw new Error('Valor fora de faixa: '+old.teamName);
+    positions.add(values.rank);
+    return {...old,
+      overallLeaguePosition:String(values.rank),
+      overallLeaguePlayed:String(values.gamesPlayed),
+      overallLeagueW:String(values.wins),
+      overallLeagueD:String(values.ties),
+      overallLeagueL:String(values.losses),
+      overallLeagueGF:String(values.pointsFor),
+      overallLeagueGA:String(values.pointsAgainst),
+      overallLeaguePTS:String(values.points),
+      leagueRound:String(values.gamesPlayed),
+      updatedAt:now.toISOString()
+    };
+  });
+  if(positions.size!==20||!result.some(s=>isTigre(s.teamName)))throw new Error('Tabela invalida');
+  return {...feed,standings:result.sort((a,b)=>Number(a.overallLeaguePosition)-Number(b.overallLeaguePosition)),
+    sourceState:{...feed.sourceState,standingsFresh:true,round30Applied:false,
+      standingsVerifiedAt:now.toISOString(),standingsVerifiedSource:'ESPN Serie B 2026',
+      teamFormsFresh:false}};
+}
+
+async function getStandings(){
+  const ctrl=new AbortController();const timeout=setTimeout(()=>ctrl.abort(),14000);
+  try{
+    const r=await fetch(STANDINGS_URL,{signal:ctrl.signal,headers:{Accept:'application/json','User-Agent':'TigreDataUpdater/1.0'}});
+    if(!r.ok)throw new Error('Tabela ESPN HTTP '+r.status);
+    return await r.json();
+  }finally{clearTimeout(timeout)}
+}
+
 async function getEvents(now){
   // ESPN limita as janelas aceitas; consultar dias individuais, nunca um mes inteiro.
   // Periodo de ~duas semanas cobre o ultimo e o proximo compromisso do clube.
@@ -145,7 +207,15 @@ async function main(){
   const now=new Date();
   const base=JSON.parse(await fs.readFile('latest.json','utf8'));
   const events=await getEvents(now);
-  const next=mergeFeed(base,events,now);
+  let next=mergeFeed(base,events,now);
+  try{
+    const standings=await getStandings();
+    next=applyVerifiedStandings(next,standings,now);
+    console.log('Tabela completa de 20 clubes verificada.');
+  }catch(e){
+    console.warn('Tabela nao alterada: '+e.message);
+    next.sourceState.standingsFresh=false;
+  }
   const count=next.sourceState.espn.fixtures;
   const conflicts=next.sourceState.espn.conflicts;
   // Erros de fonte nao podem atualizar marcadores de frescor ou rebaixar dados antigos.
