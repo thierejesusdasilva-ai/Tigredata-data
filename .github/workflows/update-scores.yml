@@ -1,6 +1,12 @@
 name: Atualizar jogos Criciuma - Fonte verificada
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh-scores.mjs'
+      - 'tests/refresh-scores.test.mjs'
+      - '.github/workflows/update-scores.yml'
   pull_request:
     paths:
       - 'scripts/refresh-scores.mjs'
