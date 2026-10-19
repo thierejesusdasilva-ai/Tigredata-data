@@ -1,0 +1,81 @@
+name: Atualizar jogos Criciuma - Fonte verificada
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh-scores.mjs'
+      - 'tests/refresh-scores.test.mjs'
+      - '.github/workflows/update-scores.yml'
+  pull_request:
+    paths:
+      - 'scripts/refresh-scores.mjs'
+      - 'tests/refresh-scores.test.mjs'
+      - '.github/workflows/update-scores.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tigre-scores-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check scripts/refresh-scores.mjs
+      - run: node --test tests/refresh-scores.test.mjs
+
+  refresh:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Buscar e validar jogos do Criciuma
+        run: node scripts/refresh-scores.mjs
+      - name: Enviar JSON ao feed lido pelo aplicativo
+        run: |
+          if git diff --quiet -- latest.json; then
+            echo "Fonte consultada; nenhuma alteracao material para publicar."
+            exit 0
+          fi
+          git config user.name "tigre-data-updater[bot]"
+          git config user.email "tigre-data-updater@users.noreply.github.com"
+          git add latest.json
+          git commit -m "Atualiza placares e jogos verificados do Criciuma"
+          git push
+      - name: Fechar aviso anterior quando a consulta recuperar
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          num=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title=="[Tigre Data] Falha na atualizacao automatica de jogos") | .number' | head -n1)
+          if [ -n "$num" ]; then gh issue close "$num" --comment "Fonte recuperada e atualizador executado. Confira o feed e as estatisticas que ainda dependem de outras fontes."; fi
+      - name: Abrir alerta se atualizador falhar
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          num=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title=="[Tigre Data] Falha na atualizacao automatica de jogos") | .number' | head -n1)
+          if [ -z "$num" ]; then
+            gh issue create --title "[Tigre Data] Falha na atualizacao automatica de jogos" --body "A fonte de resultados nao respondeu com dados validados. O feed anterior foi preservado para evitar placares falsos. Execucao: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }} ."
+          fi
