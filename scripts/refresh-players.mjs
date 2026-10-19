@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Enriquecimento conservador do elenco: identidades ESPN 2026 + estatisticas basicas.
 // Mantem estatisticas avancadas de outras fontes com sua data original.
+import {applyVerifiedProfiles} from './verified-player-profiles.mjs';
+
 export const ROSTER_URL='https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026';
 export const fold=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
 const num=v=>{if(v===null||v===undefined||v==='')return null;const n=Number(v);return Number.isFinite(n)&&n>=0?n:null;};
@@ -11,6 +13,10 @@ const statsOf=athlete=>Object.fromEntries((athlete?.statistics?.splits?.categori
 
 function scoreName(local,a){
  const given=fold(a.displayName||a.fullName),short=fold(local.name),full=fold(local.fullName);
+ // Identificadores conferidos com clube/CBF; as grafias ESPN diferem.
+ const verifiedLinks={'1927514':{id:'397652',names:['ruan rodrigues carvalho']},'868076':{id:'251863',names:['willean lepu']}};
+ const verified=verifiedLinks[String(local.sofaId||'')];
+ if(verified && String(a.id)===verified.id && String(local.espnId||'')===verified.id && verified.names.includes(given))return 155;
  if(!given||!short)return -1;
  const dob=date(a.dateOfBirth),knownDob=date(local.birthdate);
  if(dob&&knownDob&&dob!==knownDob)return -1;
@@ -51,6 +57,18 @@ export function mergeVerifiedPlayers(feed,source,now=new Date()){
  const athletes=flattenedRoster(source);
  if(athletes.length<20||athletes.length>70||source?.team?.displayName!=='Criciúma')throw new Error('Elenco ESPN ausente ou equipe incorreta.');
  const {byId,problems,unmatchedESPN}=findMatches(feed.players,athletes);
+ const crossSourceDisagreements=[];
+ for(const [p,a] of byId){
+   for(const [field,oldVal,newVal] of [
+     ['birthdate',p.birthdate,date(a.dateOfBirth)],
+     ['number',p.number,a.jersey],
+     ['heightCm',p.heightCm,num(a.height)==null?null:Math.round(num(a.height)*2.54)],
+     ['weightKg',p.weightKg,num(a.weight)==null?null:Math.round(num(a.weight)*0.45359237)]
+   ]){
+     if(p.playerFieldSources?.[field]?.locked&&val(oldVal)&&val(newVal)&&String(oldVal)!==String(newVal))
+       crossSourceDisagreements.push({name:p.name,field,verifiedValue:String(oldVal),espnValue:String(newVal)});
+   }
+ }
  if(byId.size<18)throw new Error('Poucos atletas identificados com seguranca: '+byId.size);
  let statsCount=0,profileCount=0;
  const players=feed.players.map(p=>{
@@ -60,6 +78,7 @@ export function mergeVerifiedPlayers(feed,source,now=new Date()){
   const stamp=now.toISOString();
   const update=(key,value)=>{
     if(!val(value))return;
+    if(provenance[key]?.locked===true)return;
     if(patch[key]!==value){patch[key]=value;profileCount++}
     provenance[key]={source:'ESPN Série B 2026',url:ROSTER_URL,checkedAt:stamp};
   };
@@ -111,7 +130,7 @@ export function mergeVerifiedPlayers(feed,source,now=new Date()){
  }
  const audit={source:'ESPN Série B',sourceUrl:ROSTER_URL,checkedAt:now.toISOString(),sourceAthletes:athletes.length,
     matched:byId.size,unmatchedCount:problems.length,unmatchedPlayers:problems,
-    otherESPNPlayers:unmatchedESPN,statsFieldsVerified:statsCount,profileValuesChanged:profileCount,coverage,
+    otherESPNPlayers:unmatchedESPN,crossSourceDisagreements,statsFieldsVerified:statsCount,profileValuesChanged:profileCount,coverage,
     physicalMatchMetrics:'indisponiveis no feed de elenco ESPN'};
  return {feed:{...feed,players,sourceState:{...(feed.sourceState||{}),playersESPN:audit}},audit};
 }
@@ -121,6 +140,7 @@ export async function refreshPlayers(feed,now=new Date()){
   const response=await fetch(ROSTER_URL,{headers:{Accept:'application/json','User-Agent':'TigreDataUpdater/1.0'},signal:c.signal});
   if(!response.ok)throw new Error('ESPN atletas HTTP '+response.status);
   const json=await response.json();
-  return mergeVerifiedPlayers(feed,json,now);
+  const curated=applyVerifiedProfiles(feed,now);
+  return mergeVerifiedPlayers(curated.feed,json,now);
  }finally{clearTimeout(timeout)}
 }
