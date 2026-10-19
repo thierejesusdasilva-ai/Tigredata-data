@@ -152,6 +152,13 @@ export function applyVerifiedStandings(feed,data,now=new Date()){
       overallLeagueGA:String(values.pointsAgainst),
       overallLeaguePTS:String(values.points),
       leagueRound:String(values.gamesPlayed),
+      // A fonte nova nao fornece recorte casa/fora ou ultimos 5: ocultar
+      // esses valores antigos para nao contradizer a classificacao atual.
+      homeLeaguePosition:null,homeLeaguePlayed:null,homeLeagueW:null,homeLeagueD:null,
+      homeLeagueL:null,homeLeagueGF:null,homeLeagueGA:null,homeLeaguePTS:null,
+      awayLeaguePosition:null,awayLeaguePlayed:null,awayLeagueW:null,awayLeagueD:null,
+      awayLeagueL:null,awayLeagueGF:null,awayLeagueGA:null,awayLeaguePTS:null,
+      form:null,overallLeagueForm:null,recentForm:null,lastFiveResults:[],lastFive:[],
       updatedAt:now.toISOString()
     };
   });
