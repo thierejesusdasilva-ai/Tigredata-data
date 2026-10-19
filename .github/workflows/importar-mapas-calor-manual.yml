@@ -1,0 +1,57 @@
+name: "Mapa de calor - importar após jogo (MANUAL)"
+on:
+  workflow_dispatch:
+    inputs:
+      event_id:
+        description: "ID numérico da partida no Sofascore (jogo ENCERRADO)"
+        required: true
+        type: string
+      confirmar_importacao:
+        description: "Confirmo que quero importar esta partida agora (ação manual)"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mapa-calor-manual
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    if: inputs.confirmar_importacao == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar importador e dados
+        run: |
+          node --check scripts/manual-heatmaps.mjs
+          node --test tests/manual-heatmaps.test.mjs
+      - name: Importar apenas os mapas realmente existentes
+        env:
+          EVENT_ID: ${{ inputs.event_id }}
+        run: node scripts/manual-heatmaps.mjs
+      - name: Publicar arquivo da partida e índice
+        env:
+          EVENT_ID: ${{ inputs.event_id }}
+        run: |
+          git config user.name "tigre-heatmap-manual[bot]"
+          git config user.email "tigre-heatmap-manual@users.noreply.github.com"
+          git add "heatmaps/events/$EVENT_ID.json" heatmaps/index.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para publicar." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -m "Mapa de calor manual - partida $EVENT_ID"
+          git push origin HEAD:main
+          echo "Mapas reais da partida $EVENT_ID publicados; não existe execução automática." >> "$GITHUB_STEP_SUMMARY"
