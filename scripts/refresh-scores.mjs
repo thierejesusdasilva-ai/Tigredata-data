@@ -3,6 +3,7 @@
 // Fonte publica complementar: ESPN Série B 2026 (schema nao oficial; pode mudar).
 // Em erro da fonte, nao altera latest.json; Actions registra falha.
 import fs from 'node:fs/promises';
+import {refreshPlayers} from './refresh-players.mjs';
 
 export const SCOREBOARD='https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/scoreboard';
 export const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -222,6 +223,16 @@ async function main(){
   }catch(e){
     console.warn('Tabela nao alterada: '+e.message);
     next.sourceState.standingsFresh=false;
+  }
+  try{
+    const {feed,audit}=await refreshPlayers(next,now);
+    next=feed;
+    console.log('Elenco ESPN: '+audit.matched+' atletas identificados de '+audit.sourceAthletes+
+      '; '+audit.statsFieldsVerified+' campos estatisticos validados; cobertura: '+JSON.stringify(audit.coverage));
+    if(audit.unmatchedCount)console.warn('Perfis pendentes de identificacao: '+JSON.stringify(audit.unmatchedPlayers));
+  }catch(e){
+    console.warn('Dados dos atletas nao atualizados: '+String(e.message||e));
+    next.sourceState.playersESPNError={checkedAt:now.toISOString(),message:String(e.message||e).slice(0,170)};
   }
   const count=next.sourceState.espn.fixtures;
   const conflicts=next.sourceState.espn.conflicts;
