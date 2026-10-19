@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-10-19T21:13:09.459Z",
+  "checkedAt": "2026-10-19T21:13:38.016Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
@@ -44,7 +44,7 @@
     "officialClubPhotosUpdatedAt": "2026-09-30",
     "officialClubPhotosCount": 28,
     "playerPhotoPolicy": "Retrato oficial do Criciúma; GOAL API e Sofascore somente como fallback",
-    "standingsVerifiedAt": "2026-10-19T21:13:09.459Z",
+    "standingsVerifiedAt": "2026-10-19T21:13:38.016Z",
     "standingsVerifiedSource": "ESPN Serie B 2026",
     "round30Applied": false,
     "matchDeduplication": "date+home+away+score",
@@ -59,7 +59,7 @@
     "playerProfilesMergedCount": 29,
     "espn": {
       "status": "OK",
-      "checkedAt": "2026-10-19T21:13:09.459Z",
+      "checkedAt": "2026-10-19T21:13:38.016Z",
       "fixtures": 3,
       "conflicts": [],
       "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/scoreboard"
@@ -103,7 +103,7 @@
       "awayLeagueGA": "20",
       "awayLeaguePTS": "16",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu0649kvlrx06fkp8yv5z",
         "name": "Vila Nova",
@@ -240,7 +240,7 @@
       "awayLeagueGA": "13",
       "awayLeaguePTS": "23",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05o9kv8rx06adgq24rg",
         "name": "Novorizontino",
@@ -377,7 +377,7 @@
       "awayLeagueGA": "13",
       "awayLeaguePTS": "22",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05i9kv6rx06r5doed0a",
         "name": "Juventude",
@@ -514,7 +514,7 @@
       "awayLeagueGA": "13",
       "awayLeaguePTS": "20",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05x9kvfrx06oqpcciea",
         "name": "Fortaleza",
@@ -651,7 +651,7 @@
       "awayLeagueGA": "17",
       "awayLeaguePTS": "19",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu0669kvmrx06zpdn1bqf",
         "name": "Criciúma",
@@ -788,7 +788,7 @@
       "awayLeagueGA": "14",
       "awayLeaguePTS": "21",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05z9kvhrx06ikryezl3",
         "name": "Atlético Goianiense",
@@ -925,7 +925,7 @@
       "awayLeagueGA": "24",
       "awayLeaguePTS": "21",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu0609kvirx06kek1bg62",
         "name": "CRB",
@@ -1062,7 +1062,7 @@
       "awayLeagueGA": "17",
       "awayLeaguePTS": "16",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05u9kvcrx066idvr5pd",
         "name": "Sport Recife",
@@ -1199,7 +1199,7 @@
       "awayLeagueGA": "20",
       "awayLeaguePTS": "17",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu0619kvjrx067mtep8bz",
         "name": "Goiás",
@@ -1336,7 +1336,7 @@
       "awayLeagueGA": "20",
       "awayLeaguePTS": "22",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05w9kverx06sb8ozy6w",
         "name": "Operário PR",
@@ -1473,7 +1473,7 @@
       "awayLeagueGA": "16",
       "awayLeaguePTS": "18",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05k9kv7rx065nhnpf6v",
         "name": "Cuiabá",
@@ -1610,7 +1610,7 @@
       "awayLeagueGA": "14",
       "awayLeaguePTS": "27",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05v9kvdrx06qn8kof5c",
         "name": "São Bernardo FC",
@@ -1747,7 +1747,7 @@
       "awayLeagueGA": "15",
       "awayLeaguePTS": "14",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu06d9kvprx062mx0mvyk",
         "name": "Botafogo SP",
@@ -1884,7 +1884,7 @@
       "awayLeagueGA": "19",
       "awayLeaguePTS": "19",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05r9kvarx065yddbjdc",
         "name": "Athletic Club MG",
@@ -2021,7 +2021,7 @@
       "awayLeagueGA": "22",
       "awayLeaguePTS": "12",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05s9kvbrx06tgtblb2u",
         "name": "Ceará",
@@ -2158,7 +2158,7 @@
       "awayLeagueGA": "24",
       "awayLeaguePTS": "14",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu0639kvkrx06ls825ddy",
         "name": "Náutico FC",
@@ -2295,7 +2295,7 @@
       "awayLeagueGA": "27",
       "awayLeaguePTS": "11",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05y9kvgrx06o72ujuek",
         "name": "Avaí",
@@ -2432,7 +2432,7 @@
       "awayLeagueGA": "25",
       "awayLeaguePTS": "11",
       "createdAt": "2026-07-14T17:23:59.572Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmrkx1h3w0rg3ml07nfcb5qes",
         "name": "Londrina",
@@ -2569,7 +2569,7 @@
       "awayLeagueGA": "29",
       "awayLeaguePTS": "5",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05g9kv5rx06i0npuyuf",
         "name": "América Mineiro",
@@ -2706,7 +2706,7 @@
       "awayLeagueGA": "41",
       "awayLeaguePTS": "3",
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:13:09.459Z",
+      "updatedAt": "2026-10-19T21:13:38.016Z",
       "team": {
         "id": "cmr7wu05p9kv9rx06eo6z5maa",
         "name": "Ponte Preta",
@@ -2825,7 +2825,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:13:09.459Z"
+      "verifiedAt": "2026-10-19T21:13:38.016Z"
     },
     {
       "id": "espn-401860387",
@@ -2844,7 +2844,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:13:09.459Z"
+      "verifiedAt": "2026-10-19T21:13:38.016Z"
     },
     {
       "id": "fixture-2026-09-27-criciuma-avai",
@@ -4284,7 +4284,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:13:09.459Z"
+      "verifiedAt": "2026-10-19T21:13:38.016Z"
     }
   ],
   "players": [
