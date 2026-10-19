@@ -28,13 +28,18 @@ export function parseEvent(e,now=new Date()){
   const live=!finished&&(st.state==='in'||st.name==='STATUS_IN_PROGRESS');
   const hs=numeric(home.score),as=numeric(away.score);
   if(finished&&(hs===null||as===null||hs<0||as<0||hs>40||as>40))return null;
+  // Calendario do futebol brasileiro em BRT, nao no dia UTC.
+  const pt=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(time);
+  const field=k=>pt.find(x=>x.type===k)?.value;
+  const localDate=field('year')+'-'+field('month')+'-'+field('day');
+  const localTime=field('hour')+':'+field('minute');
   // Nao escrever placar parcial de jogo como resultado final.
   return {
     id:'espn-'+String(e.id),
     leagueName:'Brasileirão Série B 2026',
     matchRound:numeric(e.week?.number??c.week?.number),
-    matchDate:time.toISOString().slice(0,10),
-    matchTime:time.toISOString().slice(11,16),
+    matchDate:localDate,
+    matchTime:localTime,
     kickoffUtc:time.toISOString(),
     homeTeamName:hn,
     awayTeamName:an,
