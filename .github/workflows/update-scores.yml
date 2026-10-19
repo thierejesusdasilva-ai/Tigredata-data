@@ -6,11 +6,15 @@ on:
     paths:
       - 'scripts/refresh-scores.mjs'
       - 'tests/refresh-scores.test.mjs'
+      - 'tests/refresh-players.test.mjs'
+      - 'scripts/refresh-players.mjs'
       - '.github/workflows/update-scores.yml'
   pull_request:
     paths:
       - 'scripts/refresh-scores.mjs'
       - 'tests/refresh-scores.test.mjs'
+      - 'tests/refresh-players.test.mjs'
+      - 'scripts/refresh-players.mjs'
       - '.github/workflows/update-scores.yml'
   workflow_dispatch:
   schedule:
@@ -35,7 +39,8 @@ jobs:
         with:
           node-version: '22'
       - run: node --check scripts/refresh-scores.mjs
-      - run: node --test tests/refresh-scores.test.mjs
+      - run: node --check scripts/refresh-players.mjs
+      - run: node --test tests/refresh-scores.test.mjs tests/refresh-players.test.mjs
 
   refresh:
     if: github.event_name != 'pull_request'
