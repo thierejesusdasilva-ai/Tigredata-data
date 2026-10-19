@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-10-19T21:14:31.937Z",
+  "checkedAt": "2026-10-19T21:56:06.913Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
@@ -44,7 +44,7 @@
     "officialClubPhotosUpdatedAt": "2026-09-30",
     "officialClubPhotosCount": 28,
     "playerPhotoPolicy": "Retrato oficial do Criciúma; GOAL API e Sofascore somente como fallback",
-    "standingsVerifiedAt": "2026-10-19T21:14:31.937Z",
+    "standingsVerifiedAt": "2026-10-19T21:56:06.913Z",
     "standingsVerifiedSource": "ESPN Serie B 2026",
     "round30Applied": false,
     "matchDeduplication": "date+home+away+score",
@@ -59,10 +59,89 @@
     "playerProfilesMergedCount": 29,
     "espn": {
       "status": "OK",
-      "checkedAt": "2026-10-19T21:14:31.937Z",
+      "checkedAt": "2026-10-19T21:56:06.913Z",
       "fixtures": 3,
       "conflicts": [],
       "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/scoreboard"
+    },
+    "playersESPN": {
+      "source": "ESPN Série B",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+      "checkedAt": "2026-10-19T21:56:06.913Z",
+      "sourceAthletes": 37,
+      "matched": 30,
+      "unmatchedCount": 5,
+      "unmatchedPlayers": [
+        {
+          "name": "Ruan",
+          "reason": "sem correspondencia segura"
+        },
+        {
+          "name": "Willean Lepo",
+          "reason": "sem correspondencia segura"
+        },
+        {
+          "name": "Kayck",
+          "reason": "sem correspondencia segura"
+        },
+        {
+          "name": "Sandry",
+          "reason": "sem correspondencia segura"
+        },
+        {
+          "name": "Eliel",
+          "reason": "sem correspondencia segura"
+        }
+      ],
+      "otherESPNPlayers": [
+        {
+          "id": "400916",
+          "name": "Lucas Soratto",
+          "jersey": "93"
+        },
+        {
+          "id": "251863",
+          "name": "Willean Lepu",
+          "jersey": "2"
+        },
+        {
+          "id": "338591",
+          "name": "Léo Mana",
+          "jersey": "15"
+        },
+        {
+          "id": "397652",
+          "name": "Ruan Rodrigues Carvalho",
+          "jersey": "80"
+        },
+        {
+          "id": "381534",
+          "name": "Fabricio",
+          "jersey": "18"
+        },
+        {
+          "id": "403735",
+          "name": "Lucas Vinicius Bugs",
+          "jersey": "17"
+        },
+        {
+          "id": "5324164",
+          "name": "Gabriel Capella Chaves",
+          "jersey": "90"
+        }
+      ],
+      "statsFieldsVerified": 316,
+      "profileValuesChanged": 43,
+      "coverage": {
+        "fullName": 31,
+        "birthdate": 31,
+        "country": 31,
+        "heightCm": 31,
+        "weightKg": 25,
+        "preferredFoot": 21,
+        "joinedCriciumaDate": 7
+      },
+      "physicalMatchMetrics": "indisponiveis no feed de elenco ESPN"
     }
   },
   "standings": [
@@ -103,7 +182,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu0649kvlrx06fkp8yv5z",
         "name": "Vila Nova",
@@ -158,7 +237,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05o9kv8rx06adgq24rg",
         "name": "Novorizontino",
@@ -213,7 +292,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05i9kv6rx06r5doed0a",
         "name": "Juventude",
@@ -268,7 +347,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05x9kvfrx06oqpcciea",
         "name": "Fortaleza",
@@ -323,7 +402,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu0669kvmrx06zpdn1bqf",
         "name": "Criciúma",
@@ -378,7 +457,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05z9kvhrx06ikryezl3",
         "name": "Atlético Goianiense",
@@ -433,7 +512,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu0609kvirx06kek1bg62",
         "name": "CRB",
@@ -488,7 +567,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05u9kvcrx066idvr5pd",
         "name": "Sport Recife",
@@ -543,7 +622,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu0619kvjrx067mtep8bz",
         "name": "Goiás",
@@ -598,7 +677,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05w9kverx06sb8ozy6w",
         "name": "Operário PR",
@@ -653,7 +732,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05k9kv7rx065nhnpf6v",
         "name": "Cuiabá",
@@ -708,7 +787,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05v9kvdrx06qn8kof5c",
         "name": "São Bernardo FC",
@@ -763,7 +842,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu06d9kvprx062mx0mvyk",
         "name": "Botafogo SP",
@@ -818,7 +897,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05r9kvarx065yddbjdc",
         "name": "Athletic Club MG",
@@ -873,7 +952,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05s9kvbrx06tgtblb2u",
         "name": "Ceará",
@@ -928,7 +1007,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu0639kvkrx06ls825ddy",
         "name": "Náutico FC",
@@ -983,7 +1062,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05y9kvgrx06o72ujuek",
         "name": "Avaí",
@@ -1038,7 +1117,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-14T17:23:59.572Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmrkx1h3w0rg3ml07nfcb5qes",
         "name": "Londrina",
@@ -1093,7 +1172,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05g9kv5rx06i0npuyuf",
         "name": "América Mineiro",
@@ -1148,7 +1227,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-19T21:14:31.937Z",
+      "updatedAt": "2026-10-19T21:56:06.913Z",
       "team": {
         "id": "cmr7wu05p9kv9rx06eo6z5maa",
         "name": "Ponte Preta",
@@ -1185,7 +1264,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:14:31.937Z"
+      "verifiedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "id": "espn-401860387",
@@ -1204,7 +1283,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:14:31.937Z"
+      "verifiedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "id": "fixture-2026-09-27-criciuma-avai",
@@ -2644,7 +2723,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-19T21:14:31.937Z"
+      "verifiedAt": "2026-10-19T21:56:06.913Z"
     }
   ],
   "players": [
@@ -2656,7 +2735,7 @@
       "sofaId": 840166,
       "image": "https://media.goal-api.com/badges/players/67457_alisson.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -2670,7 +2749,7 @@
         "appearances": 2,
         "minutesPlayed": 180,
         "xA": 0,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -2683,7 +2762,88 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 0,
+        "foulsSuffered": 1,
+        "offsides": 0,
+        "subIns": 0,
+        "saves": 2,
+        "goalsConceded": 1,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "saves": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goalsConceded": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -2698,9 +2858,24 @@
       "birthdate": "1995-06-08",
       "birthPlace": "Santiago, Rio Grande do Sul, Brasil",
       "country": "Brasil",
-      "heightCm": 190,
+      "heightCm": 191,
       "preferredFoot": "Direito",
-      "profileSource": "Sofascore"
+      "profileSource": "Sofascore",
+      "espnId": "240556",
+      "weightKg": 87,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Airton",
@@ -2710,7 +2885,7 @@
       "sofaId": 797866,
       "image": "https://www.criciuma.com.br/upload/jogadores/g-airton-moraes-michellon.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -2721,7 +2896,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 21,
+        "appearances": 25,
         "minutesPlayed": 1890,
         "fotmobRating": 7.21,
         "xA": 0,
@@ -2729,7 +2904,7 @@
         "yellowCards": 1,
         "accuratePassesPer90": 15.6,
         "passSuccessPct": 65.7,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -2742,7 +2917,87 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 0,
+        "foulsSuffered": 8,
+        "offsides": 0,
+        "subIns": 0,
+        "saves": 68,
+        "goalsConceded": 23,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "saves": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goalsConceded": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -2761,7 +3016,22 @@
       "country": "Brasil",
       "heightCm": 188,
       "preferredFoot": "Direito",
-      "profileSource": "Sofascore"
+      "profileSource": "Sofascore",
+      "espnId": "172879",
+      "weightKg": 83,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Pedro",
@@ -2771,7 +3041,7 @@
       "sofaId": 1631864,
       "image": "https://www.criciuma.com.br/upload/jogadores/g-pedro-henrique-santos-gomes.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -2786,7 +3056,7 @@
         "appearances": 7,
         "minutesPlayed": 630,
         "xA": 0,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -2799,7 +3069,88 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 0,
+        "foulsSuffered": 2,
+        "offsides": 0,
+        "subIns": 0,
+        "saves": 14,
+        "goalsConceded": 4,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "saves": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goalsConceded": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -2821,7 +3172,10 @@
       "joinedCriciumaDate": "2026-01-01",
       "previousClubs": "Criciúma U20",
       "careerSourceUrl": "https://www.criciuma.com.br/m/noticias/tigre-define-a-lista-de-atletas-que-disputarao-a-copa-sp",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "400919",
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Rodrigo",
@@ -2831,7 +3185,7 @@
       "sofaId": 886773,
       "image": "https://www.criciuma.com.br/upload/jogadores/z-rodrigo-fagundes-de-freitas.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -2850,7 +3204,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 22,
+        "appearances": 25,
         "minutesPlayed": 1890,
         "assists": 1,
         "fotmobRating": 7.2,
@@ -2859,11 +3213,11 @@
         "tackles": 22,
         "interceptions": 46,
         "clearances": 120,
-        "yellowCards": 2,
+        "yellowCards": 3,
         "accuratePassesPer90": 35.1,
         "passSuccessPct": 87,
         "shotsOnTargetPer90": 0.1,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -2876,7 +3230,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "redCards": 0,
+        "totalShots": 17,
+        "shotsOnTarget": 3,
+        "foulsCommitted": 27,
+        "foulsSuffered": 8,
+        "offsides": 2,
+        "subIns": 0,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "lastVerifiedSofascoreRating": {
         "rating": 8.1,
@@ -2908,8 +3329,23 @@
       "birthdate": "1987-03-10",
       "birthPlace": "Coxim, Mato Grosso do Sul, Brasil",
       "country": "Brasil",
-      "heightCm": 187,
-      "profileSource": "Wikipedia + base verificada"
+      "heightCm": 188,
+      "profileSource": "Wikipedia + base verificada",
+      "espnId": "198592",
+      "weightKg": 82,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Castán",
@@ -2919,7 +3355,7 @@
       "sofaId": 845110,
       "image": "https://www.criciuma.com.br/upload/jogadores/z-luciano-castan-da-silva.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -2931,7 +3367,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 23,
+        "appearances": 27,
         "minutesPlayed": 2017,
         "goals": 2,
         "assists": 1,
@@ -2945,7 +3381,7 @@
         "accuratePassesPer90": 38.8,
         "passSuccessPct": 81.5,
         "shotsOnTargetPer90": 0.2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -2958,7 +3394,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 12,
+        "shotsOnTarget": 4,
+        "foulsCommitted": 41,
+        "foulsSuffered": 12,
+        "offsides": 0,
+        "subIns": 0,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -2975,19 +3477,34 @@
       "birthdate": "1989-09-13",
       "birthPlace": "Jaú, São Paulo, Brasil",
       "country": "Brasil",
-      "heightCm": 187,
+      "heightCm": 188,
       "preferredFoot": "Esquerdo",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "143962",
+      "weightKg": 79,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "César Martins",
       "position": "Zagueiros",
-      "number": null,
+      "number": "37",
       "goalId": "cmr7wu3ea9lv9rx06nyr5aso8",
       "sofaId": 329107,
       "image": "https://www.criciuma.com.br/upload/jogadores/z-cesar-martins.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -2998,9 +3515,9 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 23,
+        "appearances": 25,
         "minutesPlayed": 2007,
-        "goals": 1,
+        "goals": 3,
         "assists": 1,
         "fotmobRating": 7.26,
         "xG": 2.2,
@@ -3012,7 +3529,7 @@
         "accuratePassesPer90": 41.8,
         "passSuccessPct": 81.7,
         "shotsOnTargetPer90": 0.2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3025,7 +3542,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 23,
+        "shotsOnTarget": 6,
+        "foulsCommitted": 21,
+        "foulsSuffered": 8,
+        "offsides": 2,
+        "subIns": 0,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -3051,13 +3634,32 @@
       "birthdate": "1992-12-28",
       "birthPlace": "Mairinque, São Paulo, Brasil",
       "country": "Brasil",
-      "heightCm": 190,
-      "weightKg": 78,
+      "heightCm": 191,
+      "weightKg": 84,
       "preferredFoot": "Direito",
       "joinedCriciumaDate": "2026-01-05",
       "previousClubs": "Atlético Sorocaba; Ponte Preta; Benfica; Flamengo; Nacional da Madeira; Vitória FC; Santa Clara; Juventude; Farense; Bolívar; Novorizontino",
       "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/cesar-martins-e-apresentado-oficialmente",
-      "profileSource": "Wikipedia + Criciúma E.C."
+      "profileSource": "Wikipedia + Criciúma E.C.",
+      "espnId": "182303",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "number": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Bruno Alves",
@@ -3067,7 +3669,7 @@
       "sofaId": 551810,
       "image": "https://www.criciuma.com.br/upload/jogadores/z-bruno-fabiano-alves.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3078,7 +3680,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 16,
+        "appearances": 17,
         "minutesPlayed": 1137,
         "goals": 2,
         "fotmobRating": 6.82,
@@ -3091,7 +3693,7 @@
         "accuratePassesPer90": 28.1,
         "passSuccessPct": 77.5,
         "shotsOnTargetPer90": 0.3,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3104,7 +3706,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 8,
+        "shotsOnTarget": 4,
+        "foulsCommitted": 24,
+        "foulsSuffered": 7,
+        "offsides": 1,
+        "subIns": 3,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -3130,19 +3799,34 @@
       "birthdate": "1991-04-16",
       "birthPlace": "Jacareí, São Paulo, Brasil",
       "country": "Brasil",
-      "heightCm": 184,
+      "heightCm": 183,
       "preferredFoot": "Direito",
-      "profileSource": "Sofascore"
+      "profileSource": "Sofascore",
+      "espnId": "200943",
+      "weightKg": 81,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Rômulo Júnior",
       "position": "Zagueiros",
-      "number": null,
+      "number": "47",
       "goalId": "cmr7fpzk32z1brx06c2utqa4o",
       "sofaId": 1117102,
       "image": "https://www.criciuma.com.br/upload/jogadores/z-romulo-helberte-pereira-junior.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3170,7 +3854,101 @@
       "joinedCriciumaDate": "2026-09-03",
       "previousClubs": "Atlético Mineiro; Sporting; Sporting B",
       "careerSourceUrl": "https://www.transfermarkt.com.br/romulo/profil/spieler/743588",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "318189",
+      "seasonStats": {
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 0,
+        "foulsSuffered": 0,
+        "offsides": 0,
+        "subIns": 0,
+        "competition": "Brasileirão Série B 2026",
+        "season": 2026,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": null,
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)"
+      },
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "number": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Octávio",
@@ -3204,7 +3982,10 @@
       "country": "Brasil",
       "heightCm": 193,
       "weightKg": 75,
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "400918",
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Ruan",
@@ -3274,12 +4055,12 @@
         "yellowCards": 1,
         "redCards": 0
       },
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
       "sofaProfileUrl": "https://www.sofascore.com/pt/football/player/marcelo-hermes/783490",
-      "heightCm": 177,
+      "heightCm": 178,
       "preferredFoot": "Esquerdo",
       "sofaProfileVerifiedAt": "2026-09-24",
       "sofascoreProfileUrl": "https://www.sofascore.com/pt/football/player/marcelo-hermes/783490",
@@ -3289,7 +4070,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 29,
+        "appearances": 33,
         "minutesPlayed": 2589,
         "goals": 4,
         "assists": 2,
@@ -3299,11 +4080,11 @@
         "tackles": 50,
         "interceptions": 23,
         "clearances": 63,
-        "yellowCards": 3,
+        "yellowCards": 5,
         "accuratePassesPer90": 24.6,
         "passSuccessPct": 75.9,
         "shotsOnTargetPer90": 0.4,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3316,7 +4097,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 48,
+        "shotsOnTarget": 13,
+        "foulsCommitted": 34,
+        "foulsSuffered": 26,
+        "offsides": 6,
+        "subIns": 0,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -3342,8 +4189,22 @@
       "birthdate": "1995-02-01",
       "birthPlace": "Sarandi, Rio Grande do Sul, Brasil",
       "country": "Brasil",
-      "weightKg": 72,
-      "profileSource": "Sofascore + Criciúma oficial"
+      "weightKg": 68,
+      "profileSource": "Sofascore + Criciúma oficial",
+      "espnId": "214399",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Marcinho",
@@ -3353,7 +4214,7 @@
       "sofaId": 840148,
       "image": "https://www.criciuma.com.br/upload/jogadores/l-marcio-almeida-de-oliveira.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3364,7 +4225,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 16,
+        "appearances": 19,
         "minutesPlayed": 900,
         "xG": 0.9,
         "xA": 1.8,
@@ -3375,7 +4236,7 @@
         "accuratePassesPer90": 30.3,
         "passSuccessPct": 81.5,
         "shotsOnTargetPer90": 0.2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3388,7 +4249,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 21,
+        "shotsOnTarget": 2,
+        "foulsCommitted": 21,
+        "foulsSuffered": 8,
+        "offsides": 1,
+        "subIns": 7,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3406,7 +4335,22 @@
       "birthPlace": "Rio de Janeiro, Rio de Janeiro, Brasil",
       "country": "Brasil",
       "heightCm": 178,
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "233363",
+      "weightKg": 76,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Hiago",
@@ -3416,7 +4360,7 @@
       "sofaId": 1914330,
       "image": "https://www.criciuma.com.br/upload/jogadores/l-hiago-accinelli-da-roza-alves.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3433,7 +4377,7 @@
         "xG": 0.7,
         "xA": 0.8,
         "yellowCards": 1,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3446,7 +4390,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 10,
+        "shotsOnTarget": 1,
+        "foulsCommitted": 6,
+        "foulsSuffered": 2,
+        "offsides": 0,
+        "subIns": 10,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3465,7 +4477,10 @@
       "country": "Brasil",
       "heightCm": 168,
       "weightKg": 70,
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "333958",
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Willean Lepo",
@@ -3558,7 +4573,7 @@
       "sofaId": 1148301,
       "image": "https://www.criciuma.com.br/upload/jogadores/v-guilherme-teixeira-lobo.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3570,7 +4585,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 27,
+        "appearances": 30,
         "minutesPlayed": 1931,
         "assists": 2,
         "fotmobRating": 7.02,
@@ -3579,11 +4594,11 @@
         "tackles": 31,
         "interceptions": 23,
         "clearances": 29,
-        "yellowCards": 5,
+        "yellowCards": 7,
         "accuratePassesPer90": 41.2,
         "passSuccessPct": 84.6,
         "shotsOnTargetPer90": 0.1,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3596,7 +4611,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "redCards": 0,
+        "totalShots": 29,
+        "shotsOnTarget": 3,
+        "foulsCommitted": 27,
+        "foulsSuffered": 25,
+        "offsides": 1,
+        "subIns": 6,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3618,7 +4700,10 @@
       "preferredFoot": "Direito",
       "previousClubs": "Santa Catarina; União Suzano; Juventus-SP; Nacional-SP; Treze",
       "careerSourceUrl": "https://www.ogol.com.br/jogador/gui-lobo/783617",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "402780",
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Jean Irmer",
@@ -3628,7 +4713,7 @@
       "sofaId": 848630,
       "image": "https://www.criciuma.com.br/upload/jogadores/v-jean-carlos-de-souza-irmer.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -3646,14 +4731,14 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 14,
+        "appearances": 17,
         "minutesPlayed": 438,
         "xG": 0.1,
         "xA": 0.1,
         "yellowCards": 3,
         "accuratePassesPer90": 20,
         "passSuccessPct": 70.8,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3666,7 +4751,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 11,
+        "shotsOnTarget": 2,
+        "foulsCommitted": 17,
+        "foulsSuffered": 2,
+        "offsides": 1,
+        "subIns": 12,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "lastVerifiedSofascoreRating": {
         "rating": 7,
@@ -3691,7 +4844,22 @@
       "country": "Brasil",
       "heightCm": 183,
       "preferredFoot": "Direito",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "209612",
+      "weightKg": 81,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Ronald",
@@ -3701,7 +4869,7 @@
       "sofaId": 931521,
       "image": "https://www.criciuma.com.br/upload/jogadores/v-ronald-dos-santos-lopes.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3712,13 +4880,13 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 12,
+        "appearances": 16,
         "minutesPlayed": 628,
         "assists": 1,
         "xG": 0.1,
         "xA": 0.5,
-        "yellowCards": 1,
-        "source": "FotMob + Sofascore",
+        "yellowCards": 2,
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3731,7 +4899,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "redCards": 0,
+        "totalShots": 8,
+        "shotsOnTarget": 2,
+        "foulsCommitted": 20,
+        "foulsSuffered": 7,
+        "offsides": 0,
+        "subIns": 6,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3748,8 +4983,23 @@
       "birthdate": "1997-06-18",
       "birthPlace": "Belford Roxo, Rio de Janeiro, Brasil",
       "country": "Brasil",
-      "heightCm": 171,
-      "profileSource": "Wikipedia + base verificada"
+      "heightCm": 170,
+      "profileSource": "Wikipedia + base verificada",
+      "espnId": "253276",
+      "weightKg": 73,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Thiaguinho",
@@ -3759,7 +5009,7 @@
       "sofaId": 1636364,
       "image": "https://www.criciuma.com.br/upload/jogadores/v-thiago-ramon-santos-modesto.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3780,7 +5030,7 @@
         "yellowCards": 2,
         "accuratePassesPer90": 35.1,
         "passSuccessPct": 87.4,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3793,7 +5043,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 4,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 6,
+        "foulsSuffered": 7,
+        "offsides": 0,
+        "subIns": 11,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3813,7 +5131,16 @@
       "heightCm": 175,
       "preferredFoot": "Direito",
       "careerSourceUrl": "https://www.sofascore.com/pt/football/player/thiago-ramon-santos-modesto/1636364",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "408326",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Eduardo",
@@ -3823,7 +5150,7 @@
       "sofaId": 870800,
       "image": "https://www.criciuma.com.br/upload/jogadores/m-eduardo-jacinto-de-biasi.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -3848,7 +5175,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 19,
+        "appearances": 22,
         "minutesPlayed": 1240,
         "fotmobRating": 6.68,
         "xG": 0.1,
@@ -3856,11 +5183,11 @@
         "tackles": 31,
         "interceptions": 12,
         "clearances": 14,
-        "yellowCards": 6,
+        "yellowCards": 7,
         "accuratePassesPer90": 34.2,
         "passSuccessPct": 89.9,
         "shotsOnTargetPer90": 0.1,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3873,7 +5200,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 3,
+        "shotsOnTarget": 1,
+        "foulsCommitted": 40,
+        "foulsSuffered": 11,
+        "offsides": 0,
+        "subIns": 5,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -3891,7 +5286,22 @@
       "birthPlace": "Treze de Maio, Santa Catarina, Brasil",
       "country": "Brasil",
       "heightCm": 178,
-      "profileSource": "Wikipedia + base verificada"
+      "profileSource": "Wikipedia + base verificada",
+      "espnId": "236316",
+      "weightKg": 72,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Fellipe Mateus",
@@ -3901,7 +5311,7 @@
       "sofaId": 865321,
       "image": "https://www.criciuma.com.br/upload/jogadores/m-fellipe-mateus-de-sena-araujo.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -3916,7 +5326,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 27,
+        "appearances": 31,
         "minutesPlayed": 2017,
         "goals": 4,
         "fotmobRating": 7.1,
@@ -3929,7 +5339,7 @@
         "accuratePassesPer90": 24.2,
         "passSuccessPct": 81.1,
         "shotsOnTargetPer90": 0.5,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -3942,7 +5352,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 41,
+        "shotsOnTarget": 11,
+        "foulsCommitted": 17,
+        "foulsSuffered": 51,
+        "offsides": 1,
+        "subIns": 2,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -3968,7 +5445,22 @@
       "birthdate": "1991-02-12",
       "birthPlace": "Campina Grande, Paraíba, Brasil",
       "country": "Brasil",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "198569",
+      "weightKg": 71,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Jhonata Robert",
@@ -3978,7 +5470,7 @@
       "sofaId": 998494,
       "image": "https://www.criciuma.com.br/upload/jogadores/m-jhonata-robert-alves-da-silva.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -3990,7 +5482,7 @@
       },
       "heatmap": null,
       "sofaProfileUrl": "https://www.sofascore.com/football/player/jhonata-robert/998494",
-      "heightCm": 179,
+      "heightCm": 178,
       "preferredFoot": "Direito",
       "sofaProfileVerifiedAt": "2026-09-24",
       "sofascoreProfileUrl": "https://www.sofascore.com/pt/football/player/jhonata-robert/998494",
@@ -4006,7 +5498,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 20,
+        "appearances": 23,
         "minutesPlayed": 758,
         "goals": 1,
         "fotmobRating": 6.88,
@@ -4015,11 +5507,11 @@
         "tackles": 14,
         "interceptions": 2,
         "clearances": 5,
-        "yellowCards": 2,
+        "yellowCards": 3,
         "accuratePassesPer90": 27,
         "passSuccessPct": 75.4,
         "shotsOnTargetPer90": 0.8,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4032,7 +5524,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "assists": 1,
+        "redCards": 0,
+        "totalShots": 31,
+        "shotsOnTarget": 8,
+        "foulsCommitted": 16,
+        "foulsSuffered": 34,
+        "offsides": 1,
+        "subIns": 13,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -4058,7 +5617,22 @@
       "birthdate": "1999-10-26",
       "birthPlace": "Recife, Pernambuco, Brasil",
       "country": "Brasil",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "296570",
+      "weightKg": 71,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Otero",
@@ -4068,7 +5642,7 @@
       "sofaId": 845323,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-romulo-otero-vasquez.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4084,10 +5658,10 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 27,
+        "appearances": 31,
         "minutesPlayed": 1558,
         "goals": 3,
-        "assists": 3,
+        "assists": 5,
         "fotmobRating": 6.81,
         "xG": 3.4,
         "xA": 3.7,
@@ -4098,7 +5672,7 @@
         "accuratePassesPer90": 18.7,
         "passSuccessPct": 78.2,
         "shotsOnTargetPer90": 0.8,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4111,7 +5685,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 59,
+        "shotsOnTarget": 15,
+        "foulsCommitted": 24,
+        "foulsSuffered": 80,
+        "offsides": 0,
+        "subIns": 7,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "FotMob",
@@ -4137,11 +5777,25 @@
       "birthdate": "1992-11-09",
       "birthPlace": "El Tigre, Anzoátegui, Venezuela",
       "country": "Venezuela",
-      "weightKg": 66,
+      "weightKg": 69,
       "joinedCriciumaDate": "2026-02-07",
       "previousClubs": "Nacional; Santos; Aucas; Fortaleza; Cruz Azul; Corinthians; Atlético Mineiro; Al-Wehda; Huachipato; Caracas",
       "careerSourceUrl": "https://www.ogol.com.br/jogador/romulo-otero/156460",
-      "profileSource": "Transfermarkt + oGol"
+      "profileSource": "Transfermarkt + oGol",
+      "espnId": "140431",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Waguininho",
@@ -4151,7 +5805,7 @@
       "sofaId": 924251,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-wagner-da-silva-souza.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -4169,7 +5823,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 29,
+        "appearances": 32,
         "minutesPlayed": 2005,
         "goals": 4,
         "assists": 1,
@@ -4179,11 +5833,11 @@
         "tackles": 20,
         "interceptions": 6,
         "clearances": 23,
-        "yellowCards": 5,
+        "yellowCards": 6,
         "accuratePassesPer90": 13.5,
         "passSuccessPct": 72.7,
         "shotsOnTargetPer90": 0.5,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4196,7 +5850,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 43,
+        "shotsOnTarget": 11,
+        "foulsCommitted": 49,
+        "foulsSuffered": 65,
+        "offsides": 22,
+        "subIns": 7,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "lastVerifiedSofascoreRating": {
         "rating": 6.3,
@@ -4233,7 +5953,22 @@
       "joinedCriciumaDate": "2025-12-04",
       "previousClubs": "São Vicente; Mogi Mirim; Oeste; Bucheon; Suwon Bluewings; Guarani; Coritiba; Avaí; Cruzeiro; Novorizontino",
       "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/tigre-acerta-a-contratacao-do-atacante-waguininho",
-      "profileSource": "Wikipedia + base verificada"
+      "profileSource": "Wikipedia + base verificada",
+      "espnId": "198435",
+      "weightKg": 68,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Nicolas",
@@ -4243,7 +5978,7 @@
       "sofaId": 866564,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-nicolas-godinho-johann.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": {
         "matchDate": "2026-09-27",
@@ -4255,7 +5990,7 @@
       },
       "heatmap": null,
       "sofaProfileUrl": "https://www.sofascore.com/football/player/nicolas/866564",
-      "heightCm": 181,
+      "heightCm": 180,
       "preferredFoot": "Direito",
       "sofaProfileVerifiedAt": "2026-09-24",
       "sofascoreProfileUrl": "https://www.sofascore.com/pt/football/player/nicolas/866564",
@@ -4265,9 +6000,9 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 17,
+        "appearances": 20,
         "minutesPlayed": 778,
-        "goals": 3,
+        "goals": 2,
         "assists": 1,
         "fotmobRating": 6.48,
         "xG": 2.1,
@@ -4279,7 +6014,7 @@
         "accuratePassesPer90": 13,
         "passSuccessPct": 78.8,
         "shotsOnTargetPer90": 0.8,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4292,7 +6027,73 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "redCards": 0,
+        "totalShots": 21,
+        "shotsOnTarget": 7,
+        "foulsCommitted": 11,
+        "foulsSuffered": 17,
+        "offsides": 9,
+        "subIns": 9,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "lastVerifiedSofascoreRating": {
         "rating": 6.3,
@@ -4319,7 +6120,40 @@
       "imageFallback": "https://media.goal-api.com/badges/players/1526_nicolas.jpg",
       "imageSource": "Criciúma E.C. - retrato oficial",
       "imageFallback2": "https://api.sofascore.com/api/v1/player/866564/image",
-      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-nicolas-godinho-johann.jpg"
+      "officialPhotoUrl": "https://www.criciuma.com.br/upload/jogadores/a-nicolas-godinho-johann.jpg",
+      "espnId": "161871",
+      "fullName": "Nicolás",
+      "birthdate": "1989-10-04",
+      "country": "Brasil",
+      "weightKg": 81,
+      "playerFieldSources": {
+        "fullName": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "birthdate": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "country": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Diego Gonçalves",
@@ -4329,7 +6163,7 @@
       "sofaId": 344077,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-diego-goncalves.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4340,7 +6174,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 20,
+        "appearances": 22,
         "minutesPlayed": 772,
         "goals": 2,
         "fotmobRating": 6.39,
@@ -4349,11 +6183,11 @@
         "tackles": 6,
         "interceptions": 4,
         "clearances": 11,
-        "yellowCards": 3,
+        "yellowCards": 2,
         "accuratePassesPer90": 18.4,
         "passSuccessPct": 70.9,
         "shotsOnTargetPer90": 1.2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4366,7 +6200,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 24,
+        "shotsOnTarget": 11,
+        "foulsCommitted": 25,
+        "foulsSuffered": 17,
+        "offsides": 5,
+        "subIns": 14,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -4386,17 +6287,32 @@
       "heightCm": 183,
       "previousClubs": "Criciúma desde 2025; histórico anterior a completar",
       "careerSourceUrl": "https://www.criciuma.com.br/noticias/o-clube/marcinho-e-diego-goncalves-renovam-para-2026",
-      "profileSource": "Wikipedia + Goal API"
+      "profileSource": "Wikipedia + Goal API",
+      "espnId": "192510",
+      "weightKg": 74,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Yuri Tanque",
       "position": "Atacantes",
-      "number": null,
+      "number": "33",
       "goalId": "cmtfafls41fugo8073h07w8v3",
       "sofaId": 877626,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-yuri-jonathan-vitor-coelho.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4408,12 +6324,12 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 7,
+        "appearances": 11,
         "minutesPlayed": 142,
         "xG": 1.2,
         "xA": 0.3,
         "yellowCards": 2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4426,7 +6342,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 2,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 13,
+        "shotsOnTarget": 5,
+        "foulsCommitted": 9,
+        "foulsSuffered": 3,
+        "offsides": 0,
+        "subIns": 9,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -4444,12 +6428,31 @@
       "birthPlace": "Nova Era-MG",
       "country": "Brasil",
       "heightCm": 185,
-      "weightKg": 80,
+      "weightKg": 87,
       "preferredFoot": "Direito",
       "joinedCriciumaDate": "2026-01-15",
       "previousClubs": "Jeju United",
       "careerSourceUrl": "https://www.transfermarkt.com.br/yuri-tanque/profil/spieler/514298",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "253653",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "number": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Romarinho",
@@ -4459,7 +6462,7 @@
       "sofaId": 870578,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-jose-romario-silva-de-souza.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4470,7 +6473,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 18,
+        "appearances": 20,
         "minutesPlayed": 553,
         "assists": 3,
         "xG": 0.3,
@@ -4482,7 +6485,7 @@
         "accuratePassesPer90": 22.9,
         "passSuccessPct": 84.2,
         "shotsOnTargetPer90": 0.2,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4495,7 +6498,74 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "redCards": 0,
+        "totalShots": 5,
+        "shotsOnTarget": 1,
+        "foulsCommitted": 10,
+        "foulsSuffered": 27,
+        "offsides": 0,
+        "subIns": 15,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -4513,7 +6583,22 @@
       "birthPlace": "Ceará-Mirim, Rio Grande do Norte, Brasil",
       "country": "Brasil",
       "heightCm": 168,
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "227243",
+      "weightKg": 72,
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Cauê",
@@ -4523,7 +6608,7 @@
       "sofaId": 831516,
       "image": "https://www.criciuma.com.br/upload/jogadores/a-caue-vinicius-dos-santos.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4534,12 +6619,12 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 14,
+        "appearances": 15,
         "minutesPlayed": 394,
         "goals": 1,
         "xG": 0.8,
         "xA": 0.3,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4552,7 +6637,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 14,
+        "shotsOnTarget": 5,
+        "foulsCommitted": 11,
+        "foulsSuffered": 5,
+        "offsides": 2,
+        "subIns": 13,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -4569,11 +6722,25 @@
       "birthdate": "2002-11-16",
       "birthPlace": "Ituverava-SP",
       "country": "Brasil",
-      "heightCm": 184,
+      "heightCm": 183,
       "weightKg": 76,
       "preferredFoot": "Direito",
       "previousClubs": "Lommel SK",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "285449",
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "João Carlos",
@@ -4590,7 +6757,7 @@
         "yellowCards": 1,
         "redCards": 0
       },
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4601,12 +6768,12 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 9,
+        "appearances": 10,
         "minutesPlayed": 154,
         "xG": 0.4,
         "xA": 0.1,
         "yellowCards": 1,
-        "source": "FotMob + Sofascore",
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)",
         "sourceUrls": {
           "minutes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/mins_played/team/7729/criciuma",
           "goals": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/goals/team/7729/players-teams",
@@ -4619,7 +6786,75 @@
           "clearances": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/effective_clearance/team/7729/players-teams",
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
-        }
+        },
+        "goals": 0,
+        "assists": 0,
+        "redCards": 0,
+        "totalShots": 7,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 7,
+        "foulsSuffered": 5,
+        "offsides": 0,
+        "subIns": 10,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": "2026-09-30"
       },
       "heatmapMeta": {
         "provider": "Sofascore",
@@ -4637,17 +6872,20 @@
       "birthPlace": "Campo Erê, Santa Catarina, Brasil",
       "country": "Brasil",
       "heightCm": 168,
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "358772",
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Kauã Moroso",
       "position": "Goleiros",
-      "number": null,
+      "number": "12",
       "goalId": "cmtyvhim722txpf071v8uzrbn",
       "sofaId": 2472108,
       "image": "https://media.goal-api.com/badges/players/172693_m-kaua.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4667,13 +6905,119 @@
       "birthdate": "2004-03-11",
       "birthPlace": "Criciúma-SC",
       "country": "Brasil",
-      "heightCm": 190,
-      "weightKg": 83,
+      "heightCm": 180,
+      "weightKg": 74,
       "preferredFoot": "Direito",
       "joinedCriciumaDate": "2025-01-01",
       "previousClubs": "Caravaggio FC",
       "careerSourceUrl": "https://www.ogol.com.br/jogador/kaua-moroso/841278",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "338673",
+      "seasonStats": {
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "foulsCommitted": 0,
+        "foulsSuffered": 0,
+        "offsides": 0,
+        "subIns": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "competition": "Brasileirão Série B 2026",
+        "season": 2026,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "saves": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goalsConceded": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": null,
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)"
+      },
+      "playerFieldSources": {
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "weightKg": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "number": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Erick Garcia",
@@ -4683,7 +7027,7 @@
       "sofaId": 1808902,
       "image": "https://media.goal-api.com/badges/players/271729_g-erick.jpg",
       "stats": null,
-      "statsSource": null,
+      "statsSource": "ESPN (básicas) + fontes anteriores (avançadas)",
       "statsCheckedAt": null,
       "lastMatch": null,
       "heatmap": null,
@@ -4707,7 +7051,85 @@
       "preferredFoot": "Direito",
       "previousClubs": "Iraty; Criciúma U20; Caravaggio FC",
       "careerSourceUrl": "https://www.ogol.com.br/jogador/erick-garcia/981135",
-      "profileSource": "Goal API / elenco"
+      "profileSource": "Goal API / elenco",
+      "espnId": "381399",
+      "seasonStats": {
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "totalShots": 1,
+        "shotsOnTarget": 1,
+        "foulsCommitted": 1,
+        "foulsSuffered": 0,
+        "offsides": 0,
+        "subIns": 0,
+        "competition": "Brasileirão Série B 2026",
+        "season": 2026,
+        "basicStatsCheckedAt": "2026-10-19T21:56:06.913Z",
+        "metricSources": {
+          "appearances": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "goals": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "assists": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "yellowCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "redCards": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "totalShots": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "shotsOnTarget": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsCommitted": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "foulsSuffered": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "offsides": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          },
+          "subIns": {
+            "source": "ESPN",
+            "checkedAt": "2026-10-19T21:56:06.913Z",
+            "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
+          }
+        },
+        "advancedStatsCheckedAt": null,
+        "source": "ESPN (básicas) + fontes anteriores (avançadas)"
+      },
+      "playerFieldSources": {},
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     },
     {
       "name": "Kayck",
@@ -4790,7 +7212,7 @@
     {
       "name": "Thales Lourenco Rodrigues",
       "position": "Atacantes",
-      "number": null,
+      "number": "39",
       "goalId": null,
       "sofaId": 2163481,
       "image": "https://api.sofascore.com/api/v1/player/2163481/image",
@@ -4808,7 +7230,40 @@
         "structuredCoordinatesAvailable": false,
         "profileUrl": "https://www.sofascore.com/football/player/thales/2163481",
         "note": "O mapa de calor existe no perfil/partida do Sofascore, mas as coordenadas estruturadas não estão expostas pelo fallback web usado pelo Tigre Data."
-      }
+      },
+      "espnId": "403734",
+      "fullName": "Thales Lourenço Rodrigues",
+      "birthdate": "2006-11-04",
+      "country": "Brasil",
+      "heightCm": 183,
+      "playerFieldSources": {
+        "fullName": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "birthdate": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "country": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "heightCm": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        },
+        "number": {
+          "source": "ESPN Série B 2026",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
+          "checkedAt": "2026-10-19T21:56:06.913Z"
+        }
+      },
+      "espnProfileCheckedAt": "2026-10-19T21:56:06.913Z"
     }
   ],
   "teamForms": {
