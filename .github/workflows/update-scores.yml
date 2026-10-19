@@ -14,7 +14,7 @@ on:
       - '.github/workflows/update-scores.yml'
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 */2 * * *'
 
 permissions:
   contents: read
@@ -44,7 +44,6 @@ jobs:
     timeout-minutes: 12
     permissions:
       contents: write
-      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -63,19 +62,8 @@ jobs:
           git add latest.json
           git commit -m "Atualiza placares e jogos verificados do Criciuma"
           git push
-      - name: Fechar aviso anterior quando a consulta recuperar
-        if: success()
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Registrar estado da atualizacao
+        if: always()
         run: |
-          num=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title=="[Tigre Data] Falha na atualizacao automatica de jogos") | .number' | head -n1)
-          if [ -n "$num" ]; then gh issue close "$num" --comment "Fonte recuperada e atualizador executado. Confira o feed e as estatisticas que ainda dependem de outras fontes."; fi
-      - name: Abrir alerta se atualizador falhar
-        if: failure()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          num=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title=="[Tigre Data] Falha na atualizacao automatica de jogos") | .number' | head -n1)
-          if [ -z "$num" ]; then
-            gh issue create --title "[Tigre Data] Falha na atualizacao automatica de jogos" --body "A fonte de resultados nao respondeu com dados validados. O feed anterior foi preservado para evitar placares falsos. Execucao: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }} ."
-          fi
+          echo "A fonte de dados nao atualiza o app quando esta indisponivel." >> "$GITHUB_STEP_SUMMARY"
+          echo "Consulte o resultado deste workflow. Nenhum placar e inventado." >> "$GITHUB_STEP_SUMMARY"
