@@ -1,0 +1,23 @@
+name: Diagnostico fonte tabela Serie B
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/probe-standings.mjs'
+      - '.github/workflows/check-standings.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check scripts/probe-standings.mjs
+      - run: node scripts/probe-standings.mjs
