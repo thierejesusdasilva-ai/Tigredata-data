@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "club": "Criciúma Esporte Clube",
   "competition": "Brasileirão Série B",
-  "checkedAt": "2026-10-24T07:16:25.869Z",
+  "checkedAt": "2026-10-24T12:40:09.297Z",
   "sourceState": {
     "goal": "OK",
     "sofascore": "WEB_FALLBACK_OK",
@@ -44,7 +44,7 @@
     "officialClubPhotosUpdatedAt": "2026-09-30",
     "officialClubPhotosCount": 28,
     "playerPhotoPolicy": "Retrato oficial do Criciúma; GOAL API e Sofascore somente como fallback",
-    "standingsVerifiedAt": "2026-10-24T07:16:25.869Z",
+    "standingsVerifiedAt": "2026-10-24T12:40:09.297Z",
     "standingsVerifiedSource": "ESPN Serie B 2026",
     "round30Applied": false,
     "matchDeduplication": "date+home+away+score",
@@ -59,7 +59,7 @@
     "playerProfilesMergedCount": 29,
     "espn": {
       "status": "OK",
-      "checkedAt": "2026-10-24T07:16:25.869Z",
+      "checkedAt": "2026-10-24T12:40:09.297Z",
       "fixtures": 3,
       "conflicts": [],
       "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/scoreboard"
@@ -67,7 +67,7 @@
     "playersESPN": {
       "source": "ESPN Série B",
       "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-      "checkedAt": "2026-10-24T07:16:25.869Z",
+      "checkedAt": "2026-10-24T12:40:09.297Z",
       "sourceAthletes": 37,
       "matched": 32,
       "unmatchedCount": 3,
@@ -146,7 +146,7 @@
       "physicalMatchMetrics": "indisponiveis no feed de elenco ESPN"
     },
     "verifiedProfiles": {
-      "checkedAt": "2026-10-24T07:16:25.869Z",
+      "checkedAt": "2026-10-24T12:40:09.297Z",
       "records": [
         {
           "name": "Ruan",
@@ -268,7 +268,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu0649kvlrx06fkp8yv5z",
         "name": "Vila Nova",
@@ -323,7 +323,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05o9kv8rx06adgq24rg",
         "name": "Novorizontino",
@@ -378,7 +378,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05i9kv6rx06r5doed0a",
         "name": "Juventude",
@@ -433,7 +433,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05x9kvfrx06oqpcciea",
         "name": "Fortaleza",
@@ -488,7 +488,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu0669kvmrx06zpdn1bqf",
         "name": "Criciúma",
@@ -543,7 +543,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05z9kvhrx06ikryezl3",
         "name": "Atlético Goianiense",
@@ -598,7 +598,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05u9kvcrx066idvr5pd",
         "name": "Sport Recife",
@@ -653,7 +653,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu0609kvirx06kek1bg62",
         "name": "CRB",
@@ -708,7 +708,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05w9kverx06sb8ozy6w",
         "name": "Operário PR",
@@ -763,7 +763,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu0619kvjrx067mtep8bz",
         "name": "Goiás",
@@ -818,7 +818,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05k9kv7rx065nhnpf6v",
         "name": "Cuiabá",
@@ -873,7 +873,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05v9kvdrx06qn8kof5c",
         "name": "São Bernardo FC",
@@ -928,7 +928,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu06d9kvprx062mx0mvyk",
         "name": "Botafogo SP",
@@ -983,7 +983,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05r9kvarx065yddbjdc",
         "name": "Athletic Club MG",
@@ -1038,7 +1038,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu0639kvkrx06ls825ddy",
         "name": "Náutico FC",
@@ -1093,7 +1093,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05s9kvbrx06tgtblb2u",
         "name": "Ceará",
@@ -1148,7 +1148,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05y9kvgrx06o72ujuek",
         "name": "Avaí",
@@ -1203,7 +1203,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-14T17:23:59.572Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmrkx1h3w0rg3ml07nfcb5qes",
         "name": "Londrina",
@@ -1258,7 +1258,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05g9kv5rx06i0npuyuf",
         "name": "América Mineiro",
@@ -1313,7 +1313,7 @@
       "awayLeagueGA": null,
       "awayLeaguePTS": null,
       "createdAt": "2026-07-13T14:34:46.516Z",
-      "updatedAt": "2026-10-24T07:16:25.869Z",
+      "updatedAt": "2026-10-24T12:40:09.297Z",
       "team": {
         "id": "cmr7wu05p9kv9rx06eo6z5maa",
         "name": "Ponte Preta",
@@ -1350,7 +1350,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-24T07:16:25.869Z"
+      "verifiedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "id": "espn-401860400",
@@ -1369,7 +1369,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-24T07:16:25.869Z"
+      "verifiedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "id": "espn-401860387",
@@ -2828,7 +2828,7 @@
       "source": "ESPN Série B (complementar)",
       "sourceUrl": "https://www.espn.com.br/futebol/resultados?liga=bra.2",
       "apiBacked": true,
-      "verifiedAt": "2026-10-24T07:16:25.869Z"
+      "verifiedAt": "2026-10-24T12:40:09.297Z"
     }
   ],
   "players": [
@@ -2880,71 +2880,71 @@
         "subIns": 0,
         "saves": 2,
         "goalsConceded": 1,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "saves": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goalsConceded": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -2978,15 +2978,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 750441,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/750441/alisson",
       "fotmobVerifiedAt": "2026-10-19"
@@ -3010,7 +3010,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 25,
+        "appearances": 26,
         "minutesPlayed": 1890,
         "fotmobRating": 7.21,
         "xA": 0,
@@ -3041,73 +3041,73 @@
         "foulsSuffered": 8,
         "offsides": 0,
         "subIns": 0,
-        "saves": 68,
-        "goalsConceded": 23,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "saves": 74,
+        "goalsConceded": 25,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "saves": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goalsConceded": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3143,15 +3143,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 658553,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/658553/airton",
       "fotmobVerifiedAt": "2026-10-19"
@@ -3205,71 +3205,71 @@
         "subIns": 0,
         "saves": 14,
         "goalsConceded": 4,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "saves": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goalsConceded": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3304,7 +3304,7 @@
       "profileSource": "Goal API / elenco",
       "espnId": "400919",
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1928323,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1928323/pedro",
       "fotmobVerifiedAt": "2026-10-19"
@@ -3336,7 +3336,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 25,
+        "appearances": 26,
         "minutesPlayed": 1890,
         "assists": 1,
         "fotmobRating": 7.2,
@@ -3365,67 +3365,67 @@
         },
         "goals": 0,
         "redCards": 0,
-        "totalShots": 17,
-        "shotsOnTarget": 3,
-        "foulsCommitted": 27,
-        "foulsSuffered": 8,
+        "totalShots": 19,
+        "shotsOnTarget": 4,
+        "foulsCommitted": 29,
+        "foulsSuffered": 10,
         "offsides": 2,
         "subIns": 0,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3469,15 +3469,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Castán",
@@ -3499,7 +3499,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 27,
+        "appearances": 28,
         "minutesPlayed": 2017,
         "goals": 2,
         "assists": 1,
@@ -3530,65 +3530,65 @@
         "redCards": 0,
         "totalShots": 12,
         "shotsOnTarget": 4,
-        "foulsCommitted": 41,
-        "foulsSuffered": 12,
+        "foulsCommitted": 42,
+        "foulsSuffered": 13,
         "offsides": 0,
         "subIns": 0,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3624,15 +3624,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 202332,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/202332/luciano-castan",
       "fotmobVerifiedAt": "2026-10-19"
@@ -3656,7 +3656,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 25,
+        "appearances": 26,
         "minutesPlayed": 2007,
         "goals": 3,
         "assists": 1,
@@ -3691,61 +3691,61 @@
         "foulsSuffered": 8,
         "offsides": 2,
         "subIns": 0,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3787,12 +3787,12 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "number": {
           "source": "ESPN Série B 2026",
@@ -3800,7 +3800,7 @@
           "checkedAt": "2026-10-19T21:56:06.913Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Bruno Alves",
@@ -3821,7 +3821,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 17,
+        "appearances": 18,
         "minutesPlayed": 1137,
         "goals": 2,
         "fotmobRating": 6.82,
@@ -3852,65 +3852,65 @@
         "redCards": 0,
         "totalShots": 8,
         "shotsOnTarget": 4,
-        "foulsCommitted": 24,
+        "foulsCommitted": 25,
         "foulsSuffered": 7,
         "offsides": 1,
-        "subIns": 3,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "subIns": 4,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -3949,15 +3949,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Rômulo Júnior",
@@ -4014,61 +4014,61 @@
         "subIns": 0,
         "competition": "Brasileirão Série B 2026",
         "season": 2026,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4079,12 +4079,12 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "number": {
           "source": "ESPN Série B 2026",
@@ -4092,7 +4092,7 @@
           "checkedAt": "2026-10-19T21:56:06.913Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1320957,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1320957/romulo",
       "fotmobVerifiedAt": "2026-10-19"
@@ -4135,7 +4135,7 @@
       "profileSource": "Goal API / elenco",
       "espnId": "400918",
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1734315,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1734315/octavio-henrique",
       "fotmobVerifiedAt": "2026-10-19"
@@ -4188,61 +4188,61 @@
         "foulsSuffered": 1,
         "offsides": 0,
         "subIns": 1,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4276,61 +4276,61 @@
       "playerFieldSources": {
         "fullName": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "birthdate": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "heightCm": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "weightKg": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "number": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "country": {
           "source": "https://www.sofascore.com/pt/football/player/ruan-rodrigues-carvalho/1927514",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "preferredFoot": {
           "source": "https://www.sofascore.com/pt/football/player/ruan-rodrigues-carvalho/1927514",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "espnId": {
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "squadStatus": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/ruan-rodrigues-carvalho",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         }
       },
       "profileVerificationNote": "O clube informa 21/10/2006; Sofascore informa 20/10/2006. Prevalece a ficha oficial; divergência não elimina associação estatística confirmada por nome completo e ESPN ID.",
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1734324,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1734324/ruan",
       "fotmobVerifiedAt": "2026-10-19"
@@ -4365,7 +4365,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 33,
+        "appearances": 34,
         "minutesPlayed": 2589,
         "goals": 4,
         "assists": 2,
@@ -4394,67 +4394,67 @@
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
         },
         "redCards": 0,
-        "totalShots": 48,
+        "totalShots": 49,
         "shotsOnTarget": 13,
         "foulsCommitted": 34,
         "foulsSuffered": 26,
         "offsides": 6,
         "subIns": 0,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4491,15 +4491,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Marcinho",
@@ -4554,61 +4554,61 @@
         "foulsSuffered": 8,
         "offsides": 1,
         "subIns": 7,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4643,15 +4643,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 749365,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/749365/marcinho",
       "fotmobVerifiedAt": "2026-10-19"
@@ -4704,61 +4704,61 @@
         "foulsSuffered": 2,
         "offsides": 0,
         "subIns": 10,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4790,7 +4790,7 @@
       "profileSource": "Goal API / elenco",
       "espnId": "333958",
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1670283,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1670283/hiago-alves",
       "fotmobVerifiedAt": "2026-10-19"
@@ -4827,7 +4827,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 27,
+        "appearances": 28,
         "minutesPlayed": 1712,
         "goals": 3,
         "assists": 3,
@@ -4837,7 +4837,7 @@
         "tackles": 35,
         "interceptions": 19,
         "clearances": 49,
-        "yellowCards": 3,
+        "yellowCards": 4,
         "redCards": 1,
         "accuratePassesPer90": 26.7,
         "passSuccessPct": 76.3,
@@ -4856,67 +4856,67 @@
           "cards": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/yellow_card/team/7729/criciuma-players",
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
         },
-        "totalShots": 23,
+        "totalShots": 25,
         "shotsOnTarget": 9,
-        "foulsCommitted": 25,
-        "foulsSuffered": 21,
+        "foulsCommitted": 26,
+        "foulsSuffered": 22,
         "offsides": 1,
         "subIns": 7,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -4953,49 +4953,49 @@
       "playerFieldSources": {
         "fullName": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "birthdate": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "heightCm": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "weightKg": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "preferredFoot": {
           "source": "https://www.sofascore.com/pt/football/player/willean-lepo/868076",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "country": {
           "source": "https://www.sofascore.com/pt/football/player/willean-lepo/868076",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "espnId": {
           "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "squadStatus": {
           "source": "https://www.criciuma.com.br/m/elenco-profissional/willean-bernardo-willemen",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
@@ -5006,7 +5006,7 @@
         }
       },
       "profileVerificationNote": "ESPN escreve Willean Lepu; clube escreve Willean Lepo. Sem camisa confirmada pelo clube: usar identificador ESPN e atualizar camisa somente pelo dado da fonte.",
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Gui Lobo",
@@ -5028,7 +5028,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 30,
+        "appearances": 31,
         "minutesPlayed": 1931,
         "assists": 2,
         "fotmobRating": 7.02,
@@ -5037,7 +5037,7 @@
         "tackles": 31,
         "interceptions": 23,
         "clearances": 29,
-        "yellowCards": 7,
+        "yellowCards": 8,
         "accuratePassesPer90": 41.2,
         "passSuccessPct": 84.6,
         "shotsOnTargetPer90": 0.1,
@@ -5057,67 +5057,67 @@
         },
         "goals": 0,
         "redCards": 0,
-        "totalShots": 29,
+        "totalShots": 30,
         "shotsOnTarget": 3,
         "foulsCommitted": 27,
         "foulsSuffered": 25,
         "offsides": 1,
-        "subIns": 6,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "subIns": 7,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5152,7 +5152,7 @@
       "profileSource": "Goal API / elenco",
       "espnId": "402780",
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1734308,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1734308/gui-lobo",
       "fotmobVerifiedAt": "2026-10-19"
@@ -5213,61 +5213,61 @@
         "foulsSuffered": 2,
         "offsides": 1,
         "subIns": 12,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5309,15 +5309,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 792064,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/792064/jean-irmer",
       "fotmobVerifiedAt": "2026-10-19"
@@ -5341,7 +5341,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 16,
+        "appearances": 17,
         "minutesPlayed": 628,
         "assists": 1,
         "xG": 0.1,
@@ -5363,67 +5363,67 @@
         },
         "goals": 0,
         "redCards": 0,
-        "totalShots": 8,
+        "totalShots": 9,
         "shotsOnTarget": 2,
-        "foulsCommitted": 20,
+        "foulsCommitted": 21,
         "foulsSuffered": 7,
         "offsides": 0,
         "subIns": 6,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5458,15 +5458,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1176041,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1176041/ronald",
       "fotmobVerifiedAt": "2026-10-19"
@@ -5523,61 +5523,61 @@
         "foulsSuffered": 7,
         "offsides": 0,
         "subIns": 11,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5613,10 +5613,10 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1933462,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1933462/thiaguinho",
       "fotmobVerifiedAt": "2026-10-19"
@@ -5689,61 +5689,61 @@
         "foulsSuffered": 11,
         "offsides": 0,
         "subIns": 5,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5778,15 +5778,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 884063,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/884063/eduardo",
       "fotmobVerifiedAt": "2026-10-19"
@@ -5814,9 +5814,9 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 31,
+        "appearances": 32,
         "minutesPlayed": 2017,
-        "goals": 4,
+        "goals": 5,
         "fotmobRating": 7.1,
         "xG": 3.4,
         "xA": 2.8,
@@ -5843,67 +5843,67 @@
         },
         "assists": 0,
         "redCards": 0,
-        "totalShots": 41,
-        "shotsOnTarget": 11,
-        "foulsCommitted": 17,
+        "totalShots": 45,
+        "shotsOnTarget": 12,
+        "foulsCommitted": 18,
         "foulsSuffered": 51,
         "offsides": 1,
         "subIns": 2,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -5940,15 +5940,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Jhonata Robert",
@@ -5986,7 +5986,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 23,
+        "appearances": 24,
         "minutesPlayed": 758,
         "goals": 1,
         "fotmobRating": 6.88,
@@ -6015,67 +6015,67 @@
         },
         "assists": 1,
         "redCards": 0,
-        "totalShots": 31,
-        "shotsOnTarget": 8,
-        "foulsCommitted": 16,
-        "foulsSuffered": 34,
+        "totalShots": 35,
+        "shotsOnTarget": 9,
+        "foulsCommitted": 17,
+        "foulsSuffered": 36,
         "offsides": 1,
         "subIns": 13,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6112,15 +6112,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Otero",
@@ -6146,7 +6146,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 31,
+        "appearances": 32,
         "minutesPlayed": 1558,
         "goals": 3,
         "assists": 5,
@@ -6175,67 +6175,67 @@
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
         },
         "redCards": 0,
-        "totalShots": 59,
+        "totalShots": 63,
         "shotsOnTarget": 15,
-        "foulsCommitted": 24,
-        "foulsSuffered": 80,
+        "foulsCommitted": 25,
+        "foulsSuffered": 81,
         "offsides": 0,
         "subIns": 7,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6275,15 +6275,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Waguininho",
@@ -6311,10 +6311,10 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 32,
+        "appearances": 33,
         "minutesPlayed": 2005,
         "goals": 4,
-        "assists": 1,
+        "assists": 2,
         "fotmobRating": 6.7,
         "xG": 3.1,
         "xA": 1.5,
@@ -6343,64 +6343,64 @@
         "totalShots": 43,
         "shotsOnTarget": 11,
         "foulsCommitted": 49,
-        "foulsSuffered": 65,
+        "foulsSuffered": 66,
         "offsides": 22,
-        "subIns": 7,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "subIns": 8,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6448,15 +6448,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Nicolas",
@@ -6488,7 +6488,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 20,
+        "appearances": 21,
         "minutesPlayed": 778,
         "goals": 2,
         "assists": 1,
@@ -6517,67 +6517,67 @@
           "passes": "https://www.fotmob.com/pt-BR/leagues/8814/stats/season/1000000394/players/accurate_pass/team/7729/criciuma"
         },
         "redCards": 0,
-        "totalShots": 21,
+        "totalShots": 23,
         "shotsOnTarget": 7,
         "foulsCommitted": 11,
         "foulsSuffered": 17,
         "offsides": 9,
-        "subIns": 9,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "subIns": 10,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6633,15 +6633,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z"
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z"
     },
     {
       "name": "Diego Gonçalves",
@@ -6662,7 +6662,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 22,
+        "appearances": 23,
         "minutesPlayed": 772,
         "goals": 2,
         "fotmobRating": 6.39,
@@ -6691,67 +6691,67 @@
         },
         "assists": 0,
         "redCards": 0,
-        "totalShots": 24,
+        "totalShots": 27,
         "shotsOnTarget": 11,
-        "foulsCommitted": 25,
-        "foulsSuffered": 17,
-        "offsides": 5,
+        "foulsCommitted": 26,
+        "foulsSuffered": 19,
+        "offsides": 7,
         "subIns": 14,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6788,15 +6788,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 478416,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/478416/diego-goncalves",
       "fotmobVerifiedAt": "2026-10-19"
@@ -6849,61 +6849,61 @@
         "foulsSuffered": 3,
         "offsides": 0,
         "subIns": 9,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -6942,12 +6942,12 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "number": {
           "source": "ESPN Série B 2026",
@@ -6955,7 +6955,7 @@
           "checkedAt": "2026-10-19T21:56:06.913Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 835355,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/835355/yuri-tanque",
       "fotmobVerifiedAt": "2026-10-19"
@@ -6979,7 +6979,7 @@
         "season": 2026,
         "updatedAt": "2026-09-30",
         "sources": [],
-        "appearances": 20,
+        "appearances": 21,
         "minutesPlayed": 553,
         "assists": 3,
         "xG": 0.3,
@@ -6987,7 +6987,7 @@
         "tackles": 3,
         "interceptions": 4,
         "clearances": 1,
-        "yellowCards": 2,
+        "yellowCards": 3,
         "accuratePassesPer90": 22.9,
         "passSuccessPct": 84.2,
         "shotsOnTargetPer90": 0.2,
@@ -7007,67 +7007,67 @@
         },
         "goals": 0,
         "redCards": 0,
-        "totalShots": 5,
-        "shotsOnTarget": 1,
-        "foulsCommitted": 10,
+        "totalShots": 6,
+        "shotsOnTarget": 2,
+        "foulsCommitted": 11,
         "foulsSuffered": 27,
         "offsides": 0,
-        "subIns": 15,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "subIns": 16,
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -7102,15 +7102,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 876272,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/876272/romarinho",
       "fotmobVerifiedAt": "2026-10-19"
@@ -7162,61 +7162,61 @@
         "foulsSuffered": 5,
         "offsides": 2,
         "subIns": 13,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -7253,15 +7253,15 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1187271,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1187271/caue",
       "fotmobVerifiedAt": "2026-10-19"
@@ -7320,61 +7320,61 @@
         "foulsSuffered": 5,
         "offsides": 0,
         "subIns": 10,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -7405,7 +7405,7 @@
       "profileSource": "Goal API / elenco",
       "espnId": "358772",
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1463464,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1463464/joao-carlos",
       "fotmobVerifiedAt": "2026-10-19"
@@ -7465,71 +7465,71 @@
         "goalsConceded": 0,
         "competition": "Brasileirão Série B 2026",
         "season": 2026,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "saves": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goalsConceded": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -7540,12 +7540,12 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "weightKg": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "number": {
           "source": "ESPN Série B 2026",
@@ -7553,7 +7553,7 @@
           "checkedAt": "2026-10-19T21:56:06.913Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1469698,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1469698/kaua-moroso",
       "fotmobVerifiedAt": "2026-10-19"
@@ -7609,61 +7609,61 @@
         "subIns": 0,
         "competition": "Brasileirão Série B 2026",
         "season": 2026,
-        "basicStatsCheckedAt": "2026-10-24T07:16:25.869Z",
+        "basicStatsCheckedAt": "2026-10-24T12:40:09.297Z",
         "metricSources": {
           "appearances": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "goals": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "assists": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "yellowCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "redCards": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "totalShots": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "shotsOnTarget": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsCommitted": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "foulsSuffered": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "offsides": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           },
           "subIns": {
             "source": "ESPN",
-            "checkedAt": "2026-10-24T07:16:25.869Z",
+            "checkedAt": "2026-10-24T12:40:09.297Z",
             "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026"
           }
         },
@@ -7671,7 +7671,7 @@
         "source": "ESPN (básicas) + fontes anteriores (avançadas)"
       },
       "playerFieldSources": {},
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1635655,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1635655/erick-garcia",
       "fotmobVerifiedAt": "2026-10-19"
@@ -7706,37 +7706,37 @@
       "playerFieldSources": {
         "fullName": {
           "source": "https://www.criciuma.com.br/m/noticias/roberto-volpato-define-a-pre-lista-para-a-copa-sp",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "birthdate": {
           "source": "https://fcf-sc.s3.sa-east-1.amazonaws.com/wp-content/uploads/2025/04/30180147/EDITAL.pdf",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "country": {
           "source": "https://www.sofascore.com/pt/football/player/kayck/2677500",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "position": {
           "source": "https://www.criciuma.com.br/m/noticias/roberto-volpato-define-a-pre-lista-para-a-copa-sp",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "squadStatus": {
           "source": "https://www.criciuma.com.br/m/noticias/tigre-e-tetracampeao-catarinense-sub-20",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "squadCategory": {
           "source": "https://www.criciuma.com.br/m/noticias/tigre-e-tetracampeao-catarinense-sub-20",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         }
@@ -7782,31 +7782,31 @@
       "playerFieldSources": {
         "squadStatus": {
           "source": "https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-confirma-retorno-do-meia-sandry-ao-santos.ghtml",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "destinationAtDeparture": {
           "source": "https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-confirma-retorno-do-meia-sandry-ao-santos.ghtml",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "departureConfirmedAt": {
           "source": "https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-confirma-retorno-do-meia-sandry-ao-santos.ghtml",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "historicCriciumaAppearancesAllCompetitions": {
           "source": "https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-confirma-retorno-do-meia-sandry-ao-santos.ghtml",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "historicCriciumaAssistsAllCompetitions": {
           "source": "https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-confirma-retorno-do-meia-sandry-ao-santos.ghtml",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         }
@@ -7849,67 +7849,67 @@
       "playerFieldSources": {
         "fullName": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "birthdate": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "country": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "birthPlace": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "heightCm": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "weightKg": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "preferredFoot": {
           "source": "https://www.zerozero.pt/jogador/eliel-costa/838973?edicao_id=210278",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "squadStatus": {
           "source": "https://criciuma.com.br/noticias/o-clube/comunicado-oficial-161",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "destinationAtDeparture": {
           "source": "https://criciuma.com.br/noticias/o-clube/comunicado-oficial-161",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "departureConfirmedAt": {
           "source": "https://criciuma.com.br/noticias/o-clube/comunicado-oficial-161",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         },
         "historicCriciumaAppearancesAllCompetitions": {
           "source": "https://criciuma.com.br/noticias/o-clube/comunicado-oficial-161",
-          "checkedAt": "2026-10-24T07:16:25.869Z",
+          "checkedAt": "2026-10-24T12:40:09.297Z",
           "verifiedDate": "2026-10-19",
           "locked": true
         }
@@ -7965,7 +7965,7 @@
         "heightCm": {
           "source": "ESPN Série B 2026",
           "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.2/teams/9971/roster?season=2026",
-          "checkedAt": "2026-10-24T07:16:25.869Z"
+          "checkedAt": "2026-10-24T12:40:09.297Z"
         },
         "number": {
           "source": "ESPN Série B 2026",
@@ -7973,7 +7973,7 @@
           "checkedAt": "2026-10-19T21:56:06.913Z"
         }
       },
-      "espnProfileCheckedAt": "2026-10-24T07:16:25.869Z",
+      "espnProfileCheckedAt": "2026-10-24T12:40:09.297Z",
       "fotmobId": 1764022,
       "fotmobProfileUrl": "https://www.fotmob.com/pt-BR/players/1764022/thales",
       "fotmobVerifiedAt": "2026-10-19"
