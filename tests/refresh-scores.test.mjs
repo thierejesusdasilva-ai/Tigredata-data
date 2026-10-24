@@ -12,13 +12,18 @@ const event=(id,dt='2026-10-18T23:30:00Z',status='post',scoreH='2',scoreA='1')=>
  ]}]
 });
 
-test('converte horarios BRT corretamente e so aprova placar final valido',()=>{
+test('converte horarios BRT e distingue placar ao vivo de resultado final',()=>{
  const x=parseEvent(event('501','2026-10-20T00:30:00Z'),now);
  assert.equal(x.matchDate,'2026-10-19');
  assert.equal(x.matchTime,'21:30');
  assert.equal(x.matchStatus,'FINISHED');
  assert.equal(x.homeTeamFtScore,2);
  assert.equal(parseEvent(event('502','2026-10-19T12:00:00Z','pre'),now).homeTeamFtScore,null);
+ const live=parseEvent(event('504','2026-10-19T12:00:00Z','in','0','1'),now);
+ assert.equal(live.matchStatus,'LIVE');
+ assert.equal(live.homeTeamFtScore,0);
+ assert.equal(live.awayTeamFtScore,1);
+ assert.equal(parseEvent(event('505','2026-10-19T12:00:00Z','in',null,'1'),now).homeTeamFtScore,null);
  assert.equal(parseEvent(event('503','2026-10-18T23:30:00Z','post',null,'1'),now),null);
 });
 
