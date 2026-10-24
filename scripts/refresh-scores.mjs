@@ -34,7 +34,9 @@ export function parseEvent(e,now=new Date()){
   const field=k=>pt.find(x=>x.type===k)?.value;
   const localDate=field('year')+'-'+field('month')+'-'+field('day');
   const localTime=field('hour')+':'+field('minute');
-  // Nao escrever placar parcial de jogo como resultado final.
+  // Exibir placar parcial somente com estado AO VIVO e valores confiaveis.
+  // O jogo continua em upcoming; o placar parcial nunca vira resultado final.
+  const liveScoreValid=live&&hs!==null&&as!==null&&hs>=0&&as>=0&&hs<=40&&as<=40;
   return {
     id:'espn-'+String(e.id),
     leagueName:'Brasileirão Série B 2026',
@@ -45,8 +47,8 @@ export function parseEvent(e,now=new Date()){
     homeTeamName:hn,
     awayTeamName:an,
     matchStatus:finished?'FINISHED':live?'LIVE':'SCHEDULED',
-    homeTeamFtScore:finished?hs:null,
-    awayTeamFtScore:finished?as:null,
+    homeTeamFtScore:finished?hs:liveScoreValid?hs:null,
+    awayTeamFtScore:finished?as:liveScoreValid?as:null,
     matchStadium:c.venue?.fullName||null,
     dataSource:'ESPN',
     source:'ESPN Série B (complementar)',
